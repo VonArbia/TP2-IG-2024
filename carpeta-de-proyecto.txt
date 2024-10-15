@@ -1,0 +1,6 @@
+La temática de nuestro sitio sera de la banda Miranda!
+
+Miranda! ya tiene una pagina web pero le falta más onda (https://mirandaenvivo.com)
+En la página oficial podemos encontrar novedades (su nuevo juego y próximos conciertos), una playlist de YouTube de su ultimo album, una playlist de Spotify con sus canciones mas escuchadas, una galería de fotos y sus redes. Tambien encontramos el contacto a su managment y una breve descripción de la banda
+
+se le podría agregar info sobre los integrantes, se podría separa los próximos shows a una pestaña aparte, que el cartel del juego no sea tan grande y molesto y talvez incluir videos de conciertos pasados y/o entrevistas.
