@@ -1,0 +1,79 @@
+Resuelto en reunión de meet juntas fecha 22/10
+
+La temática de nuestro sitio será de la banda Miranda!
+
+Miranda! ya tiene una página web pero le falta más onda (https://mirandaenvivo.com)
+En la página oficial podemos encontrar novedades (su nuevo juego y próximos conciertos), una playlist de YouTube de su último álbum, una playlist de Spotify con sus canciones más escuchadas, una galería de fotos y sus redes. También encontramos el contacto a su management y una breve descripción de la banda
+
+se le podría agregar info sobre los integrantes, se podría separar los próximos shows a una pestaña aparte, que el cartel del juego no sea tan grande y molesto y tal vez incluir vídeos de conciertos pasados y/o entrevistas, discografía
+
+Target principal: Rango etario joven, 15 a 30 años aprox.
+Objetivo: Brindar información a todas las personas interesadas en la banda de forma accesible y “simpática” reflejando la personalidad de la banda.
+
+Links:
+-https://www.fundacionkonex.org/b4775-miranda   premio y fecha exacta de creación
+-https://es.wikipedia.org/wiki/Anexo:Discograf%C3%ADa_de_Miranda! Discografía
+-https://es.wikipedia.org/wiki/Anexo:Premios_y_nominaciones_de_Miranda! premios
+-https://es.wikipedia.org/wiki/Miranda! historia y ex-miembros
+-https://www.merchbar.com/pop/miranda?srsltid=AfmBOootYkl_kUN3sEpCkY5rPGRVc1ZLwdjx5Wy6Fe3Vxld4YAwg6iWG   merch discos
+-https://hacemosmerch.com/categoria-producto/miranda/ merch accesorios
+-https://www.infobae.com/teleshow/infoshow/2020/05/14/como-miranda-llego-a-musicalizar-casi-feliz-el-furor-argentino-de-netflix/  participacion televisiva
+-https://es.rollingstone.com/arg-miranda-entrevista-rolling-stone/  articulo en los rolling stone 2023
+-https://www.youtube.com/watch?v=qROGVyjDx5M entrevista más reciente (que encontramos)
+
+Páginas que tuvimos en cuenta para su estructura, diseño y contenidos
+https://bz-vermillion.com/index.html
+https://www.mai-kuraki.com/index.html
+https://sodastereo.com/albums/ 
+
+Origen de las fotos:
+https://www.pop-generation.com/musica/hotel-miranda-el-disco-de-reversiones-del-duo-pop-argentino
+https://x.com/mirandaenvivo/status/1838219369282736457/photo/2 
+https://x.com/mirandaenvivo/status/1769376372294623563/photo/1 
+https://es.rollingstone.com/arg-miranda-entrevista-rolling-stone/ 
+https://www.instagram.com/p/DAvkZrLRuJw/?img_index=4 Ale
+https://www.instagram.com/p/C-IOTVcu-SF/?img_index=5 Juli
+
+
+código para canciones más escuchadas de spotify:
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2eEmsgWmUFMbtU7agJpnjY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+Mapa de navegación
+Página de inicio
+Aquí se mostrarán imágenes de sus últimos discos (carrusel?), noticias, las últimas publicaciones de sus redes, banners a otros sitios (?). Agregar banner del juego para móviles de “siempre que lo beso” con redirección a página donde jugarlo (https://miamorsrl.itch.io/siempre-que-lo-beso y https://play.google.com/store/apps/details?id=com.MIAMOR.SiemprequeloBeso).
+banner agencia APA! https://agenciaapa.com 
+Noticias
+Página para mostrar las últimas noticias sobre la banda: nuevos lanzamientos de discos, eventos, recitales, apariciones en medios, publicaciones de artículos, etc. Los links a entrevistas, apariciones en medios, etc. se pondrán aquí.
+Eventos y recitales
+Página para mostrar la lista de recitales pasados y por venir. Incluir el botón que redirige al sitio de venta.
+También podemos agregar galería de fotos de recitales recientes.
+Biografía
+Historia
+Miembros anteriores
+Premios y nominaciones
+Página para mostrar una breve presentación del grupo y la biografía de los miembros actuales. La sección de historia incluye una cronología de la historia de la banda y la sección de los miembros anteriores, sus biografías e imágenes de ellos.
+Discografía
+Sencillos
+Álbumes de estudio
+Álbumes en directo
+Álbumes recopilatorios
+EP
+Álbumes de video
+Vinilos
+Página para mostrar las tapas de los distintos discos que sacó Miranda. Se dividen por tipo de disco, y abajo de cada disco se muestra el título, la fecha de lanzamiento y el número de disco (1° sencillo, 2° sencillo, 1° álbum, 2° álbum, etc). Al clickear sobre la tapa del disco sale una ventana con su información (no emergente, esos que se cierran con una cruz como las publicidades).
+
+
+Páginas complementarias
+	Formulario de contacto
+	Preguntar por mail, nombre, tema de la consulta y espacio para la consulta en si
+	podemos tomar de referencia el formulario de contacto de la agencia APA! (se 
+encuentra al final de la página https://agenciaapa.com)
+Info nuestra
+	Podemos reutilizar la info del trabajo anterior agregando la materia, año y turno de 
+cursada.
+
+Para todas las páginas
+Footer con datos de contacto de manager
+management@mirandaenvivo.com
+Hover para ver las redes sociales oficiales a un costado del nav
+
+
