@@ -1,3 +1,19 @@
+/* Estilos generales */
+main {
+    padding-top: 70px;
+}
+
+footer {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer p {
+    font-size: small;
+}
+
+/* Página de discografía */
+/* Muestra el menú dropdown en mobile y oculta el menú de pestañas */
 .menudiscosuno {
     display: flex;
     justify-content: center;
@@ -7,16 +23,22 @@
     display: none;
 }
 
+/* Efecto hover sobre las cartas */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.15);
+}
+
+/* Estilos dentro del modal */
 .col-md-5 img {
     margin-bottom: 20px;
 }
 
 .modal-footer {
     justify-content: center;
-}
-
-.modal-footer button {
-    
 }
 
 .btn-circle {
@@ -26,14 +48,34 @@
     padding: 4px 0px;
     text-align: center;
     font-size: 20px;
+    color: #FFFFFF;
+}
+
+.spotify {
+    background-color: #1DB954;
+}
+
+.applemusic {
+    background-color: #FF0436;
+}
+
+.youtubemusic {
+    background-color: #FF0000;
 }
 
 .gris {
     color: gray;
+    font-size: small;
 }
 
 /* Media query para dispositivos desktop */
 @media (min-width : 480px) {
+    /* Estilos generales */
+    footer p {
+        font-size: medium;
+    }
+
+    /* Página de discografía */
     .menudiscosuno {
         display: none;
     }

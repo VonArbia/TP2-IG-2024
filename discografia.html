@@ -14,7 +14,7 @@
 <body>
     <div>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">MIRANDA!</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -105,8 +105,14 @@
                               <div class="card mb-3 box-shadow">
                                 <!-- Tapa del disco que al ser clickeado, salta el modal-->
                                 <img class="card-img-top" src="img/discografia/sencillo55-siemprequelobeso.jpg" alt="Tapa del sencillo 55" data-bs-toggle="modal" data-bs-target="#sencillo55">
-                                
-                                <!-- Modal con info sobre el disco-->
+                                    
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                  <p class="card-text text-center"><b>Título del disco</b><br>xx/xx/20xx</p>
+                                </div>
+                              </div>
+                            
+                              <!-- Modal con info sobre el disco-->
                                 <div class="modal fade" id="sencillo55" data-bs-backdrop="static" tabindex="-1" aria-labelledby="sencillo55Label" aria-hidden="true">
                                     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
                                     <div class="modal-content">
@@ -116,12 +122,12 @@
                                         </div>
                                         <div class="modal-body row row-cols-sm-1 row-cols-sm-2"> <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
                                             <div class="col-md-5">
-                                                <img class="img-fluid rounded" src="img/discografia/sencillo55-siemprequelobeso.jpg" alt="Tapa del sencillo 55">
+                                                <img class="img-fluid rounded m-md-1" src="img/discografia/sencillo55-siemprequelobeso.jpg" alt="Tapa del sencillo 55">
                                             </div>
                                             <div class="col-md-7">
                                                 <p>Tipo: Sencillo<br>
                                                     Fecha de lanzamiento: xx/xx/20xx<br>
-                                                    Intérpretes colaboradores: nombre
+                                                    Intérpretes colaboradores: nombre</p>
                                                 <hr class="solid">
                                                 <ol>
                                                     <li>Siempre Que Lo Beso</li>
@@ -133,26 +139,20 @@
                                                     <li>Siempre Que Lo Beso</li>
                                                 </ol>
                                                 <hr class="solid">
-                                                <div class="gris">17/05/2024<br>
+                                                <p class="gris">17/05/2024<br>
                                                     1 canción y 2 minutos<br>
-                                                    ℗ 2024 Sony Music Entertainment Argentina S.A.</div>
+                                                    ℗ 2024 Sony Music Entertainment Argentina S.A.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="modal-footer"> <!-- Footer del modal con los links a los servicios de streaming-->
-                                            <a class="btn btn-success btn-circle" href="https://open.spotify.com/intl-ja/album/6HZmLJi2vatI1IPmcJ6Y5s" role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
-                                            <a class="btn btn-danger btn-circle" href="https://music.apple.com/ar/album/siempre-que-lo-beso-single/1745144673" role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
-                                            <a class="btn btn-danger btn-circle" href="https://music.youtube.com/playlist?list=OLAK5uy_k9BirrzC0Xk5YDey4_tiuR8DdL3Mro3bY" role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music" target="_blank"><i class="bi bi-youtube"></i></a>
+                                            <a class="btn btn-circle spotify" href="https://open.spotify.com/intl-ja/album/6HZmLJi2vatI1IPmcJ6Y5s" role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic" href="https://music.apple.com/ar/album/siempre-que-lo-beso-single/1745144673" role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic" href="https://music.youtube.com/playlist?list=OLAK5uy_k9BirrzC0Xk5YDey4_tiuR8DdL3Mro3bY" role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music" target="_blank"><i class="bi bi-youtube"></i></a>
                                         </div>
                                     </div>
                                     </div>
                                 </div>
-                                
-                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                <div class="card-body">
-                                  <p class="card-text text-center"><b>Título del disco</b><br>xx/xx/20xx</p>
-                                </div>
-                              </div>
                             </div>
 
                               <div class="col">
@@ -186,9 +186,18 @@
             </article>
         </main>
         <div>
-            <footer>
+            <footer class="bg-dark p-3">
                 <address>
+                    <a class="btn btn-circle" href="https://www.instagram.com/mirandaenvivo" role="button" data-bs-toggle="tooltip" title="Seguir en Instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a class="btn btn-circle" href="https://www.facebook.com/MirandaEnVivo" role="button" data-bs-toggle="tooltip" title="Seguir en Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a class="btn btn-circle" href="https://www.youtube.com/c/Mirandaenvivo" role="button" data-bs-toggle="tooltip" title="Seguir en YouTube" target="_blank"><i class="bi bi-youtube"></i></a>
+                    <a class="btn btn-circle" href="https://www.tiktok.com/@mirandaenvivo" role="button" data-bs-toggle="tooltip" title="Seguir en TikTok" target="_blank"><i class="bi bi-tiktok"></i></a>
+                    <a class="btn btn-circle" href="https://x.com/mirandaenvivo" role="button" data-bs-toggle="tooltip" title="Seguir en Twitter/X" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                    <a class="btn btn-circle" href="https://open.spotify.com/intl-ja/artist/2eEmsgWmUFMbtU7agJpnjY" role="button" data-bs-toggle="tooltip" title="Seguir en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
+                    <a class="btn btn-circle" href="https://music.apple.com/ar/artist/miranda/589298876" role="button" data-bs-toggle="tooltip" title="Seguir en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
                 </address>
+                <p>© Miranda! | Agencia APA - Todos los derechos reservados<br>
+                ℗ 2024 Sony Music Entertainment Argentina S.A.</p>
             </footer>
         </div>
     </div>
