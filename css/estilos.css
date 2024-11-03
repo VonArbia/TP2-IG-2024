@@ -40,16 +40,25 @@ footer {
 
 main {
     padding-top: 70px;
-}
-
-section {
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-section img {
+section, article{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+section img, article img {
     width: 85%
+    
 }
+article p, article ul{
+    text-align: justify;
 
+}
 section p,
 section ul {
     text-align: justify;
