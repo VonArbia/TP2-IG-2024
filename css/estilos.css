@@ -107,11 +107,11 @@ select option {
 }
 
 /* Efecto hover sobre las cartas */
-.card {
+.album .card {
     transition: 0.3s;
 }
 
-.card:hover {
+.album .card:hover {
     transform: scale(1.15);
 }
 
