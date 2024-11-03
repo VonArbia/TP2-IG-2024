@@ -1,21 +1,40 @@
 /* Estilos generales */
 body {
     background-color: #8e0107;
+    color: #e4a04d
 }
 
-.navbar, footer {
+.navbar,
+footer {
     background-color: rgb(0, 0, 0) !important;
 
 }
 
-.navbar-brand,.nav-link, footer {
+header, main{
+    margin: 2em;
+}
+.navbar-brand,
+.nav-link,
+footer {
     color: #ba7e36 !important
 }
-.navbar-brand{
+
+.navbar-brand {
     font-weight: 700;
 }
+
 main {
     padding-top: 70px;
+}
+
+section{
+    text-align: center;
+}
+section img{
+    width: 85%
+}
+section p,section ul{
+    text-align: justify;
 }
 
 footer {
@@ -57,9 +76,7 @@ footer p {
     justify-content: center;
 }
 
-.centrado {
-    text-align: center;
-}
+
 
 iframe {
     width: 90%;
@@ -112,5 +129,9 @@ iframe {
 
     iframe {
         width: 45%;
+    }
+
+    section img {
+        width: 45%
     }
 }
