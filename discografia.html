@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Discografía | Miranda!</title>
 </head>
 
 <body>
@@ -51,37 +53,136 @@
         </header>
         <main>
             <article>
-                <h1>Discografía</h1>
-                <section>
-                    <div class="dropdown show">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <h1 class="text-center py-3">Discografía</h1>
+                <section class="menudiscosuno">
+                    <div class="dropdown-center">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Sencillos
                         </a>
                       
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <a class="dropdown-item" href="discografia.html">Sencillos</a>
-                          <a class="dropdown-item" href="estudio.html">Álbumes de estudio</a>
-                          <a class="dropdown-item" href="directo.html">Álbumes en directo</a>
-                          <a class="dropdown-item" href="recopilatorios.html">Álbumes recopilatorios</a>
-                          <a class="dropdown-item" href="ep.html">EPs</a>
-                          <a class="dropdown-item" href="video.html">Álbumes de video</a>
-                          <a class="dropdown-item" href="vinilo.html">Vinilos</a>
+                            <a class="dropdown-item" href="discografia.html">Sencillos</a>
+                            <a class="dropdown-item" href="estudio.html">Álbumes de estudio</a>
+                            <a class="dropdown-item" href="directo.html">Álbumes en directo</a>
+                            <a class="dropdown-item" href="recopilatorios.html">Álbumes recopilatorios</a>
+                            <a class="dropdown-item" href="ep.html">EPs</a>
+                            <a class="dropdown-item" href="video.html">Álbumes de video</a>
+                            <a class="dropdown-item" href="vinilo.html">Vinilos</a>
                         </div>
-                      </div>
-                    <h2>Sencillos</h2>
+                    </div>
+                </section><br>
+                <section class="menudiscosdos">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a class="nav-link active bg-light" aria-current="page">Sencillos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="estudio.html">Álbumes de estudio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="directo.html">Álbumes en directo</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="recopilatorios.html">Álbumes recopilatorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ep.html">EPs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Álbumes de video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vinilo.html">Vinilos</a>
+                        </li>
+                      </ul>
+                </section>
+                <section class="album py-5 bg-light">
                     <div class="container">
-                    <img src="img/discografia/sencillo55-siemprequelobeso.jpg" class="rounded float-left" alt="Tapa del sencillo 55">
-                    <img src="img/discografia/sencillo54-simedisculpoahora.jpg" class="rounded float-left" alt="Tapa del sencillo 54">
-                </div>
-                </section>
-                <section>
-                    <h3></h3>
-                    <p></p>
-                </section>
-                <section>
-                    <h3></h3>
-                    <p></p>
-                </section>
+                        <div class="row row-cols-sm-2 row-cols-md-5"> <!-- 2 columnas para celular y 5 para compu-->
+
+                            <!-- Sencillo 55-->
+                            <div class="col">
+                              <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/sencillo55-siemprequelobeso.jpg" alt="Tapa del sencillo 55" data-bs-toggle="modal" data-bs-target="#sencillo55">
+                                
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="sencillo55" data-bs-backdrop="static" tabindex="-1" aria-labelledby="sencillo55Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="sencillo55Label">Título del disco</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2"> <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded" src="img/discografia/sencillo55-siemprequelobeso.jpg" alt="Tapa del sencillo 55">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Sencillo<br>
+                                                    Fecha de lanzamiento: xx/xx/20xx<br>
+                                                    Intérpretes colaboradores: nombre
+                                                <hr class="solid">
+                                                <ol>
+                                                    <li>Siempre Que Lo Beso</li>
+                                                    <li>Siempre Que Lo Beso</li>
+                                                    <li>Siempre Que Lo Beso</li>
+                                                    <li>Siempre Que Lo Beso</li>
+                                                    <li>Siempre Que Lo Beso</li>
+                                                    <li>Siempre Que Lo Beso</li>
+                                                    <li>Siempre Que Lo Beso</li>
+                                                </ol>
+                                                <hr class="solid">
+                                                <div class="gris">17/05/2024<br>
+                                                    1 canción y 2 minutos<br>
+                                                    ℗ 2024 Sony Music Entertainment Argentina S.A.</div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer"> <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-success btn-circle" href="https://open.spotify.com/intl-ja/album/6HZmLJi2vatI1IPmcJ6Y5s" role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-danger btn-circle" href="https://music.apple.com/ar/album/siempre-que-lo-beso-single/1745144673" role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-danger btn-circle" href="https://music.youtube.com/playlist?list=OLAK5uy_k9BirrzC0Xk5YDey4_tiuR8DdL3Mro3bY" role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music" target="_blank"><i class="bi bi-youtube"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                  <p class="card-text text-center"><b>Título del disco</b><br>xx/xx/20xx</p>
+                                </div>
+                              </div>
+                            </div>
+
+                              <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                  <img class="card-img-top" src="img/discografia/sencillo54-simedisculpoahora.jpg" alt="Tapa del sencillo 54">
+                                  <div class="card-body">
+                                    <p class="card-text text-center"><b>Título del disco</b><br>xx/xx/20xx</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                  <img class="card-img-top" src="img/discografia/sencillo55-siemprequelobeso.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <p class="card-text text-center"><b>Título del disco</b><br>xx/xx/20xx</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                  <img class="card-img-top" src="img/discografia/sencillo55-siemprequelobeso.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <p class="card-text text-center"><b>Título del disco</b><br>xx/xx/20xx</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </section>      
             </article>
         </main>
         <div>
