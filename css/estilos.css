@@ -47,6 +47,36 @@ footer p {
     font-size: small;
 }
 
+/* Página de eventos y recitales */
+select option {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    border: gray;
+    border-radius: 15px;
+}
+
+.recital .carousel {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 600px;
+    max-width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.recital iframe { /*para el video incrustado*/
+	display: block; /*lo convierte en bloque para poder centrarlo*/
+    width: 600px;
+    max-width: 90%; /*ancho máximo para que no sobresalga de su contenedor cuando se lo ve en una pantalla angosta*/
+    aspect-ratio: 16 / 9;
+	margin: 0px auto;
+    /* box-shadow: 0px 0px 10px #000000; */
+	border-radius: 10px;
+	border: none; /*para quitar el atributo frameborder de la etiqueta iframe que tiraba error en el validador*/
+}
+
 /* Página de discografía */
 /* Muestra el menú dropdown en mobile y oculta el menú de pestañas */
 .menudiscosuno {
