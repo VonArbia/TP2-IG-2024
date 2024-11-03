@@ -1,4 +1,19 @@
 /* Estilos generales */
+body {
+    background-color: #8e0107;
+}
+
+.navbar, footer {
+    background-color: rgb(0, 0, 0) !important;
+
+}
+
+.navbar-brand,.nav-link, footer {
+    color: #ba7e36 !important
+}
+.navbar-brand{
+    font-weight: 700;
+}
 main {
     padding-top: 70px;
 }
@@ -6,6 +21,7 @@ main {
 footer {
     color: #FFFFFF;
     text-align: center;
+    background-color: black;
 }
 
 footer p {
@@ -41,6 +57,14 @@ footer p {
     justify-content: center;
 }
 
+.centrado {
+    text-align: center;
+}
+
+iframe {
+    width: 90%;
+}
+
 .btn-circle {
     width: 40px;
     height: 40px;
@@ -64,12 +88,13 @@ footer p {
 }
 
 .gris {
-    color: gray;
+    color: rgb(0, 0, 0);
     font-size: small;
 }
 
 /* Media query para dispositivos desktop */
 @media (min-width : 480px) {
+
     /* Estilos generales */
     footer p {
         font-size: medium;
@@ -83,5 +108,9 @@ footer p {
     .menudiscosdos {
         display: flex;
         justify-content: center;
+    }
+
+    iframe {
+        width: 45%;
     }
 }
