@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Discografía | Miranda!</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">MIRANDA!</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="eventos.html">Eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="biografia.html">Biografía</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="discografia.html">Discografía</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="desarrolladores.html">Desarrolladores</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h1 class="text-center py-3">Discografía</h1>
+                <section class="menudiscosuno">
+                    <div class="dropdown-center">
+                        <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Álbumes de estudio
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="discografia.html">Sencillos</a>
+                            <a class="dropdown-item" href="estudio.html">Álbumes de estudio</a>
+                            <a class="dropdown-item" href="directo.html">Álbumes en directo</a>
+                            <a class="dropdown-item" href="recopilatorios.html">Álbumes recopilatorios</a>
+                            <a class="dropdown-item" href="ep.html">EPs</a>
+                            <a class="dropdown-item" href="video.html">Álbumes de video</a>
+                            <a class="dropdown-item" href="vinilo.html">Vinilos</a>
+                        </div>
+                    </div>
+                </section><br>
+                <section class="menudiscosdos">
+                    <ul class="nav nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link" href="discografia.html">Sencillos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page">Álbumes de estudio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="directo.html">Álbumes en directo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recopilatorios.html">Álbumes recopilatorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ep.html">EPs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Álbumes de video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vinilo.html">Vinilos</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="album py-5">
+                    <div class="container">
+                        <div class="row row-cols-sm-2 row-cols-md-5 g-3"> <!-- 2 columnas para celular y 5 para compu-->
+
+                            <!-- Acá empieza un disco -->
+                            <!-- [[Disco]] -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                  <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                  <img class="card-img-top" src="[[Fuente]]" alt="Tapa del album de [[Disco]]" data-bs-toggle="modal" data-bs-target="#[[Código]]">
+                                      
+                                  <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                  <div class="card-body">
+                                    <p class="card-text text-center"><b>[[Nombre]]</b><br>[[Fecha]]</p>
+                                  </div>
+                                </div>
+                              
+                                <!-- Modal con info sobre el disco-->
+                                  <div class="modal fade" id="[[Código]]" data-bs-backdrop="static" tabindex="-1" aria-labelledby="[[Label]]" aria-hidden="true">
+                                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                      <div class="modal-content">
+                                          <div class="modal-header">
+                                          <h1 class="modal-title fs-5" id="[[Label]]">[[Nombre]]</h1>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                          </div>
+                                          <div class="modal-body row row-cols-sm-1 row-cols-sm-2"> <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                              <div class="col-md-5">
+                                                  <img class="img-fluid rounded m-md-1" src="[[Fuente]]" alt="Tapa del album de estudio 9">
+                                              </div>
+                                              <div class="col-md-7">
+                                                  <p>Tipo: Álbum de estudio<br>
+                                                      Fecha de lanzamiento: [[Fecha]]
+                                                  <hr class="solid">
+                                                  <ol>
+                                                      [[Lista de canciones]]
+                                                  </ol>
+                                                  <hr class="solid">
+                                                  <p class="gris">[[Fecha]]<br>
+                                                      [[Duración]]<br>
+                                                      [[Copyright]]
+                                                  </p>
+                                              </div>
+                                          </div>
+                                          <div class="modal-footer"> <!-- Footer del modal con los links a los servicios de streaming-->
+                                              <a class="btn btn-circle spotify" href="[[Link Spotify]]" role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
+                                              <a class="btn btn-circle applemusic" href="[[Link Apple Music]]" role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
+                                              <a class="btn btn-circle youtubemusic" href="[[Link YouTube Music]]" role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music" target="_blank"><i class="bi bi-youtube"></i></a>
+                                          </div>
+                                      </div>
+                                      </div>
+                                  </div>
+                              </div> <!-- Hasta acá es un disco-->
+  
+  
+                        </div> <!-- Cierra el row -->
+                    </div>
+    </div>
+    </div>
+    </section>
+    </article>
+    </main>
+    <div>
+        <footer class="p-3">
+            <address>
+                <a class="btn btn-circle" href="https://www.instagram.com/mirandaenvivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en Instagram" target="_blank"><i
+                        class="bi bi-instagram"></i></a>
+                <a class="btn btn-circle" href="https://www.facebook.com/MirandaEnVivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en Facebook" target="_blank"><i
+                        class="bi bi-facebook"></i></a>
+                <a class="btn btn-circle" href="https://www.youtube.com/c/Mirandaenvivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en YouTube" target="_blank"><i class="bi bi-youtube"></i></a>
+                <a class="btn btn-circle" href="https://www.tiktok.com/@mirandaenvivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en TikTok" target="_blank"><i class="bi bi-tiktok"></i></a>
+                <a class="btn btn-circle" href="https://x.com/mirandaenvivo" role="button" data-bs-toggle="tooltip"
+                    title="Seguir en Twitter/X" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                <a class="btn btn-circle" href="https://open.spotify.com/intl-ja/artist/2eEmsgWmUFMbtU7agJpnjY"
+                    role="button" data-bs-toggle="tooltip" title="Seguir en Spotify" target="_blank"><i
+                        class="bi bi-spotify"></i></a>
+                <a class="btn btn-circle" href="https://music.apple.com/ar/artist/miranda/589298876" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en Apple Music" target="_blank"><i
+                        class="bi bi-apple"></i></a>
+            </address>
+            <p>© Miranda! | Agencia APA - Todos los derechos reservados<br>
+                ℗ 2024 Sony Music Entertainment Argentina S.A.</p>
+        </footer>
+    </div>
+    </div>
+    <!--linkeo script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
