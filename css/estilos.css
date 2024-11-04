@@ -1,7 +1,16 @@
 /* Estilos generales */
 body {
     background-color: #8e0107;
-    color: #e4a04d
+    color: #e4a04d;
+    display: flex;
+	justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+#contenido { /*elemento de bloque que define el ancho máximo*/
+	width: 100%; /*normalmente se muestra en toda la pantalla*/
+	max-width: 960px; /*pero si el navegador es mayor a 960px (como en las computadoras) no crece más de 960px*/
+    background-color: #400000;
 }
 
 .color-links:link{
@@ -286,7 +295,10 @@ iframe {
         width: 45%;
     }
 
-    section img {
+    section img{
         width: 45%
+    }
+    article img{
+        width :30%
     }
 }
