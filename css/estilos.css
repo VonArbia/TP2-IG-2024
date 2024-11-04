@@ -235,6 +235,11 @@ select option {
     text-align: left;
 }
 
+.modal-body ol li span {
+    color: gray;
+    font-size: 80%;
+}
+
 .col-md-5 img {
     width: 100%;
     margin-bottom: 20px;
