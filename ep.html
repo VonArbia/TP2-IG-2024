@@ -18,316 +18,313 @@
 </head>
 
 <body>
-    <div>
-        <header>
-            <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">MIRANDA!</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="eventos.html">Eventos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="biografia.html">Biografía</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="discografia.html">Discografía</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
-                                    href="desarrolladores.html">Desarrolladores</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <article>
-                <h1 class="text-center py-3">Discografía</h1>
-                <section class="menudiscosuno">
-                    <div class="dropdown-center">
-                        <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Álbumes de estudio
-                        </a>
-
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="discografia.html">Sencillos</a>
-                            <a class="dropdown-item" href="estudio.html">Álbumes de estudio</a>
-                            <a class="dropdown-item" href="directo.html">Álbumes en vivo</a>
-                            <a class="dropdown-item" href="recopilatorios.html">Álbumes recopilatorios</a>
-                            <a class="dropdown-item" href="ep.html">EPs y DVDs</a>
-                        </div>
-                    </div>
-                </section><br>
-                <section class="menudiscosdos">
-                    <ul class="nav nav-underline">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">MIRANDA!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="discografia.html">Sencillos</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="estudio.html">Álbumes de estudio</a>
+                            <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="directo.html">Álbumes en vivo</a>
+                            <a class="nav-link active" aria-current="page" href="eventos.html">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="recopilatorios.html">Álbumes recopilatorios</a>
+                            <a class="nav-link active" aria-current="page" href="biografia.html">Biografía</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page">EPs y DVDs</a>
+                            <a class="nav-link active" aria-current="page" href="discografia.html">Discografía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="desarrolladores.html">Desarrolladores</a>
                         </li>
                     </ul>
-                </section>
-                <section class="album py-5">
-                    <div class="container">
-                        <div class="row row-cols-sm-2 row-cols-md-5 g-3"> <!-- 2 columnas para celular y 5 para compu-->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1 class="text-center py-3">Discografía</h1>
+            <section class="menudiscosuno">
+                <div class="dropdown-center">
+                    <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Álbumes de estudio
+                    </a>
 
-                            <!-- Acá empieza un disco -->
-                            <!-- EP02 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                    <img class="card-img-top" src="img/discografia/ep02-precoz.jpeg"
-                                        alt="Tapa del album de Precoz" data-bs-toggle="modal" data-bs-target="#ep2">
-
-                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                    <div class="card-body">
-                                        <p class="card-text text-center"><b>Precoz</b><br>13/12/2019</p>
-                                    </div>
-                                </div>
-
-                                <!-- Modal con info sobre el disco-->
-                                <div class="modal fade" id="ep2" data-bs-backdrop="static" tabindex="-1"
-                                    aria-labelledby="ep2Label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="ep2Label">Precoz</h1>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
-                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                                <div class="col-md-5">
-                                                    <img class="img-fluid rounded m-md-1"
-                                                        src="img/discografia/ep02-precoz.jpeg" alt="Tapa de EP Precoz">
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p>Tipo: EP<br>
-                                                        Fecha de lanzamiento: 13/12/2019
-                                                        <hr class="solid">
-                                                    <ol>
-                                                        <li>Burla</li>
-                                                        <li>Sedán</li>
-                                                        <li>No Tengo Plata</li>
-                                                        <li>No Da</li>
-                                                        <li>Estar Contigo</li>
-                                                        <li>Hay Una Luz</li>
-                                                        <li>Taxi</li>
-                                                        <li>Duran Duran</li>
-                                                    </ol>
-                                                    <hr class="solid">
-                                                    <p class="gris">13/12/2019<br>
-                                                        8 canciones y 26 minutos<br>
-                                                        ℗ 2019 Sony Music Entertainment Argentina S.A.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <!-- Footer del modal con los links a los servicios de streaming-->
-                                                <a class="btn btn-circle spotify"
-                                                    href="https://open.spotify.com/intl-ja/album/7toSxHtkgRgtJYuGBS4hBw"
-                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
-                                                    target="_blank"><i class="bi bi-spotify"></i></a>
-                                                <a class="btn btn-circle applemusic"
-                                                    href="https://music.apple.com/ar/album/precoz/1490673750"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Escuchar en Apple Music" target="_blank"><i
-                                                        class="bi bi-apple"></i></a>
-                                                <a class="btn btn-circle youtubemusic"
-                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_kYYlEPC8tTFX3Fr3b9PKFCs2FwlmKOVrM"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Escuchar en YouTube Music" target="_blank"><i
-                                                        class="bi bi-youtube"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- Hasta acá es un disco-->
-
-                            <!-- Acá empieza un disco -->
-                            <!-- EP01 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                    <img class="card-img-top" src="img/discografia/ep01-quereme.jpeg"
-                                        alt="Tapa del album de Quereme!" data-bs-toggle="modal" data-bs-target="#ep1">
-
-                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                    <div class="card-body">
-                                        <p class="card-text text-center"><b>Quereme! Tributo a las
-                                                Telenovelas</b><br>20/07/2006</p>
-                                    </div>
-                                </div>
-
-                                <!-- Modal con info sobre el disco-->
-                                <div class="modal fade" id="ep1" data-bs-backdrop="static" tabindex="-1"
-                                    aria-labelledby="ep1Label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="ep1Label">Quereme! Tributo a las
-                                                    Telenovelas</h1>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
-                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                                <div class="col-md-5">
-                                                    <img class="img-fluid rounded m-md-1"
-                                                        src="img/discografia/ep01-quereme.jpeg"
-                                                        alt="Tapa del EP 1 Quereme!">
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p>Tipo: EP<br>
-                                                        Fecha de lanzamiento: 20/07/2006
-                                                        <hr class="solid">
-                                                    <ol>
-                                                        <li>Quereme... tengo frío</li>
-                                                        <li>Una lágrima sobre el teléfono</li>
-                                                        <li>Esa extraña dama</li>
-                                                        <li>Medley: Esa Extraña Dama / Amándote / Una Lágrima Sobre el
-                                                            Teléfono / Quereme... Tengo Frío - Extendida</li>
-                                                        <li>Medley: Esa Extraña Dama / Amándote / Una Lágrima Sobre el
-                                                            Teléfono / Quereme... Tengo Frío - Radio Edit</li>
-                                                    </ol>
-                                                    <hr class="solid">
-                                                    <p class="gris">20/07/2006<br>
-                                                        5 canciones y 23 minutos<br>
-                                                        ℗ 2006 Pelo Music S.A.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <!-- Footer del modal con los links a los servicios de streaming-->
-                                                <a class="btn btn-circle spotify"
-                                                    href="https://open.spotify.com/intl-ja/album/5Iwt4RktUUQLlMxY2E5Kv7"
-                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
-                                                    target="_blank"><i class="bi bi-spotify"></i></a>
-                                                <a class="btn btn-circle applemusic"
-                                                    href="https://music.apple.com/ar/album/quereme-tributo-a-las-telenovelas-ep/1043847777"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Escuchar en Apple Music" target="_blank"><i
-                                                        class="bi bi-apple"></i></a>
-                                                <a class="btn btn-circle youtubemusic"
-                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_kSnpN4i7wtm5bLyrLlzhDi5wGi96ExgSs"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Escuchar en YouTube Music" target="_blank"><i
-                                                        class="bi bi-youtube"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- Hasta acá es un disco-->
-
-                            <!-- Acá empieza un disco -->
-                            <!-- DVD 01 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                    <img class="card-img-top" src="img/discografia/dvd01-envivosinrestricciones.jpg"
-                                        alt="Tapa del album de En Vivo Sin Restricciones" data-bs-toggle="modal"
-                                        data-bs-target="#dvd1">
-
-                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                    <div class="card-body">
-                                        <p class="card-text text-center"><b>En Vivo Sin Restricciones</b><br>21/05/2005
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <!-- Modal con info sobre el disco-->
-                                <div class="modal fade" id="dvd1" data-bs-backdrop="static" tabindex="-1"
-                                    aria-labelledby="dvd1Label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="dvd1Label">En Vivo Sin Restricciones
-                                                </h1>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
-                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                                <div class="col-md-5">
-                                                    <img class="img-fluid rounded m-md-1"
-                                                        src="img/discografia/dvd01-envivosinrestricciones.jpg"
-                                                        alt="Tapa del album de En Vivo Sin Restricciones">
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p>Tipo: Álbum DVD<br>
-                                                        Fecha de lanzamiento: 21/05/2005
-                                                        <hr class="solid"></p>
-                                                    <ol>
-                                                        <li>Otra vez - En Vivo </li>
-                                                        <li>Tu gurú - En Vivo </li>
-                                                        <li>Yo te diré - En Vivo </li>
-                                                        <li>Hoy - En Vivo </li>
-                                                        <li>Bailarina - En Vivo </li>
-                                                        <li>Mentira - En Vivo </li>
-                                                        <li>Traición - En Vivo </li>
-                                                        <li>Navidad - En Vivo </li>
-                                                        <li>Quiero - En Vivo </li>
-                                                        <li>El profe - En Vivo </li>
-                                                        <li>Tu Juego - En Vivo</li>
-                                                        <li>Don - En Vivo </li>
-                                                        <li>Romix - En Vivo</li>
-                                                        <li>Casualidad - En Vivo</li>
-
-                                                    </ol>
-                                                    <hr class="solid">
-                                                    <p class="gris">21/05/2005<br>
-                                                        14 canciones y 53 minutos<br>
-                                                        ℗ 2005 Pelo Music S.A.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <!-- Footer del modal con los links a los servicios de streaming-->
-                                                <a class="btn btn-circle youtubemusic" href="https://www.youtube.com/watch?app=desktop&v=czSvHgtbL2E"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Ver recital en YouTube" target="_blank"><i
-                                                        class="bi bi-youtube"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> <!-- Hasta acá es un disco-->
-
-
-                        </div> <!-- Cierra el row -->
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="discografia.html">Sencillos</a>
+                        <a class="dropdown-item" href="estudio.html">Álbumes de estudio</a>
+                        <a class="dropdown-item" href="directo.html">Álbumes en vivo</a>
+                        <a class="dropdown-item" href="recopilatorios.html">Álbumes recopilatorios</a>
+                        <a class="dropdown-item" href="ep.html">EPs y DVDs</a>
                     </div>
-    </div>
-    </div>
-    </section>
-    </article>
+                </div>
+            </section><br>
+            <section class="menudiscosdos">
+                <ul class="nav nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link" href="discografia.html">Sencillos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estudio.html">Álbumes de estudio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="directo.html">Álbumes en vivo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recopilatorios.html">Álbumes recopilatorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page">EPs y DVDs</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="album py-5">
+                <div class="container">
+                    <div class="row row-cols-sm-2 row-cols-md-5 g-3"> <!-- 2 columnas para celular y 5 para compu-->
+
+                        <!-- Acá empieza un disco -->
+                        <!-- EP02 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/ep02-precoz.jpeg"
+                                    alt="Tapa del album de Precoz" data-bs-toggle="modal" data-bs-target="#ep2">
+
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>Precoz</b><br>13/12/2019</p>
+                                </div>
+                            </div>
+
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="ep2" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="ep2Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="ep2Label">Precoz</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/ep02-precoz.jpeg" alt="Tapa de EP Precoz">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: EP<br>
+                                                    Fecha de lanzamiento: 13/12/2019
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
+                                                    <li>Burla</li>
+                                                    <li>Sedán</li>
+                                                    <li>No Tengo Plata</li>
+                                                    <li>No Da</li>
+                                                    <li>Estar Contigo</li>
+                                                    <li>Hay Una Luz</li>
+                                                    <li>Taxi</li>
+                                                    <li>Duran Duran</li>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">13/12/2019<br>
+                                                    8 canciones y 26 minutos<br>
+                                                    ℗ 2019 Sony Music Entertainment Argentina S.A.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/7toSxHtkgRgtJYuGBS4hBw"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/precoz/1490673750" role="button"
+                                                data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_kYYlEPC8tTFX3Fr3b9PKFCs2FwlmKOVrM"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- Hasta acá es un disco-->
+
+                        <!-- Acá empieza un disco -->
+                        <!-- EP01 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/ep01-quereme.jpeg"
+                                    alt="Tapa del album de Quereme!" data-bs-toggle="modal" data-bs-target="#ep1">
+
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>Quereme! Tributo a las
+                                            Telenovelas</b><br>20/07/2006</p>
+                                </div>
+                            </div>
+
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="ep1" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="ep1Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="ep1Label">Quereme! Tributo a las
+                                                Telenovelas</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/ep01-quereme.jpeg"
+                                                    alt="Tapa del EP 1 Quereme!">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: EP<br>
+                                                    Fecha de lanzamiento: 20/07/2006
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
+                                                    <li>Quereme... tengo frío</li>
+                                                    <li>Una lágrima sobre el teléfono</li>
+                                                    <li>Esa extraña dama</li>
+                                                    <li>Medley: Esa Extraña Dama / Amándote / Una Lágrima Sobre el
+                                                        Teléfono / Quereme... Tengo Frío - Extendida</li>
+                                                    <li>Medley: Esa Extraña Dama / Amándote / Una Lágrima Sobre el
+                                                        Teléfono / Quereme... Tengo Frío - Radio Edit</li>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">20/07/2006<br>
+                                                    5 canciones y 23 minutos<br>
+                                                    ℗ 2006 Pelo Music S.A.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/5Iwt4RktUUQLlMxY2E5Kv7"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/quereme-tributo-a-las-telenovelas-ep/1043847777"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_kSnpN4i7wtm5bLyrLlzhDi5wGi96ExgSs"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- Hasta acá es un disco-->
+
+                        <!-- Acá empieza un disco -->
+                        <!-- DVD 01 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/dvd01-envivosinrestricciones.jpg"
+                                    alt="Tapa del album de En Vivo Sin Restricciones" data-bs-toggle="modal"
+                                    data-bs-target="#dvd1">
+
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>En Vivo Sin Restricciones</b><br>21/05/2005
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="dvd1" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="dvd1Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="dvd1Label">En Vivo Sin Restricciones
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/dvd01-envivosinrestricciones.jpg"
+                                                    alt="Tapa del album de En Vivo Sin Restricciones">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Álbum DVD<br>
+                                                    Fecha de lanzamiento: 21/05/2005
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
+                                                    <li>Otra vez - En Vivo </li>
+                                                    <li>Tu gurú - En Vivo </li>
+                                                    <li>Yo te diré - En Vivo </li>
+                                                    <li>Hoy - En Vivo </li>
+                                                    <li>Bailarina - En Vivo </li>
+                                                    <li>Mentira - En Vivo </li>
+                                                    <li>Traición - En Vivo </li>
+                                                    <li>Navidad - En Vivo </li>
+                                                    <li>Quiero - En Vivo </li>
+                                                    <li>El profe - En Vivo </li>
+                                                    <li>Tu Juego - En Vivo</li>
+                                                    <li>Don - En Vivo </li>
+                                                    <li>Romix - En Vivo</li>
+                                                    <li>Casualidad - En Vivo</li>
+
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">21/05/2005<br>
+                                                    14 canciones y 53 minutos<br>
+                                                    ℗ 2005 Pelo Music S.A.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://www.youtube.com/watch?app=desktop&v=czSvHgtbL2E"
+                                                role="button" data-bs-toggle="tooltip" title="Ver recital en YouTube"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- Hasta acá es un disco-->
+
+
+                    </div> <!-- Cierra el row -->
+                </div>
+
+            </section>
+        </article>
     </main>
     <div>
         <footer class="p-3">
@@ -354,7 +351,6 @@
             <p>© Miranda! | Agencia APA - Todos los derechos reservados<br>
                 ℗ 2024 Sony Music Entertainment Argentina S.A.</p>
         </footer>
-    </div>
     </div>
     <!--linkeo script-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

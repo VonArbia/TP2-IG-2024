@@ -18,426 +18,438 @@
 </head>
 
 <body>
-    <div>
-        <header>
-            <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">MIRANDA!</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="eventos.html">Eventos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="biografia.html">Biografía</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="discografia.html">Discografía</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
-                                    href="desarrolladores.html">Desarrolladores</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <article>
-                <h1 class="text-center py-3">Discografía</h1>
-                <section class="menudiscosuno">
-                    <div class="dropdown-center">
-                        <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Álbumes de estudio
-                        </a>
-
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="discografia.html">Sencillos</a>
-                            <a class="dropdown-item" href="estudio.html">Álbumes de estudio</a>
-                            <a class="dropdown-item" href="directo.html">Álbumes en directo</a>
-                            <a class="dropdown-item" href="recopilatorios.html">Álbumes recopilatorios</a>
-                            <a class="dropdown-item" href="ep.html">EPs y DVDs</a>
-                        </div>
-                    </div>
-                </section><br>
-                <section class="menudiscosdos">
-                    <ul class="nav nav-underline">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">MIRANDA!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="discografia.html">Sencillos</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page">Álbumes de estudio</a>
+                            <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="directo.html">Álbumes en vivo</a>
+                            <a class="nav-link active" aria-current="page" href="eventos.html">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="recopilatorios.html">Álbumes recopilatorios</a>
+                            <a class="nav-link active" aria-current="page" href="biografia.html">Biografía</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="ep.html">EPs y DVDs</a>
+                            <a class="nav-link active" aria-current="page" href="discografia.html">Discografía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="desarrolladores.html">Desarrolladores</a>
                         </li>
                     </ul>
-                </section>
-                <section class="album py-5">
-                    <div class="container">
-                        <div class="row row-cols-sm-2 row-cols-md-5 g-3"> <!-- 2 columnas para celular y 5 para compu-->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1 class="text-center py-3">Discografía</h1>
+            <section class="menudiscosuno">
+                <div class="dropdown-center">
+                    <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Álbumes de estudio
+                    </a>
 
-                            <!-- Estudio 09 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                    <img class="card-img-top" src="img/discografia/estudio09-hotelmiranda.jpeg"
-                                        alt="Tapa del album de estudio 9" data-bs-toggle="modal"
-                                        data-bs-target="#estudio9">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="discografia.html">Sencillos</a>
+                        <a class="dropdown-item" href="estudio.html">Álbumes de estudio</a>
+                        <a class="dropdown-item" href="directo.html">Álbumes en directo</a>
+                        <a class="dropdown-item" href="recopilatorios.html">Álbumes recopilatorios</a>
+                        <a class="dropdown-item" href="ep.html">EPs y DVDs</a>
+                    </div>
+                </div>
+            </section><br>
+            <section class="menudiscosdos">
+                <ul class="nav nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link" href="discografia.html">Sencillos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page">Álbumes de estudio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="directo.html">Álbumes en vivo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recopilatorios.html">Álbumes recopilatorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ep.html">EPs y DVDs</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="album py-5">
+                <div class="container">
+                    <div class="row row-cols-sm-2 row-cols-md-5 g-3"> <!-- 2 columnas para celular y 5 para compu-->
 
-                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                    <div class="card-body">
-                                        <p class="card-text text-center"><b>Hotel Miranda!</b><br>19/04/2023</p>
-                                    </div>
+                        <!-- Estudio 09 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/estudio09-hotelmiranda.jpeg"
+                                    alt="Tapa del album de estudio 9" data-bs-toggle="modal" data-bs-target="#estudio9">
+
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>Hotel Miranda!</b><br>19/04/2023</p>
                                 </div>
+                            </div>
 
-                                <!-- Modal con info sobre el disco-->
-                                <div class="modal fade" id="estudio9" data-bs-backdrop="static" tabindex="-1"
-                                    aria-labelledby="estudio9Label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="estudio9Label">Hotel Miranda!</h1>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="estudio9" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="estudio9Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="estudio9Label">Hotel Miranda!</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/estudio09-hotelmiranda.jpeg"
+                                                    alt="Tapa del album de estudio 9">
                                             </div>
-                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
-                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                                <div class="col-md-5">
-                                                    <img class="img-fluid rounded m-md-1"
-                                                        src="img/discografia/estudio09-hotelmiranda.jpeg"
-                                                        alt="Tapa del album de estudio 9">
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p>Tipo: Álbum de estudio<br>
-                                                        Fecha de lanzamiento: 19/04/2023</p>
-                                                        <hr class="solid">
-                                                    <ol>
-                                                        <li>Don <span>(con Ca7riel)</span></li>
-                                                        <li>Yo Te Diré <span>(con Lali)</span></li>
-                                                        <li>Perfecta (Versión 2023) <span>(con Maria Becerra y
-                                                                FMK)</span></li>
-                                                        <li>Traición <span>(con Emmanuel Horvilleur y Juan
-                                                                Ingaramo)</span></li>
-                                                        <li>Uno los Dos <span>(con Emilia)</span></li>
-                                                        <li>Prisionero <span>(con Cristian Castro)</span></li>
-                                                        <li>Enamorada <span>(con Francisca Valenzuela)</span></li>
-                                                        <li>Tu Misterioso Alguien <span>(con Andrés Calamaro)</span>
-                                                        </li>
-                                                        <li>Mentía <span>(con Chano)</span></li>
-                                                        <li>Ya Lo Sabía <span>(con Sofía Reyes)</span></li>
-                                                        <li>Navidad <span>(con Bandalos Chinos)</span></li>
-                                                    </ol>
-                                                    <hr class="solid">
-                                                    <p class="gris">19/04/2023<br>
-                                                        11 canciones y 37 minutos<br>
-                                                        ℗ 2023 Sony Music Entertainment Argentina S.A.
-                                                    </p>
-                                                </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Álbum de estudio<br>
+                                                    Fecha de lanzamiento: 19/04/2023</p>
+                                                <hr class="solid">
+                                                <ol>
+                                                    <li>Don <span>(con Ca7riel)</span></li>
+                                                    <li>Yo Te Diré <span>(con Lali)</span></li>
+                                                    <li>Perfecta (Versión 2023) <span>(con Maria Becerra y
+                                                            FMK)</span></li>
+                                                    <li>Traición <span>(con Emmanuel Horvilleur y Juan
+                                                            Ingaramo)</span></li>
+                                                    <li>Uno los Dos <span>(con Emilia)</span></li>
+                                                    <li>Prisionero <span>(con Cristian Castro)</span></li>
+                                                    <li>Enamorada <span>(con Francisca Valenzuela)</span></li>
+                                                    <li>Tu Misterioso Alguien <span>(con Andrés Calamaro)</span>
+                                                    </li>
+                                                    <li>Mentía <span>(con Chano)</span></li>
+                                                    <li>Ya Lo Sabía <span>(con Sofía Reyes)</span></li>
+                                                    <li>Navidad <span>(con Bandalos Chinos)</span></li>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">19/04/2023<br>
+                                                    11 canciones y 37 minutos<br>
+                                                    ℗ 2023 Sony Music Entertainment Argentina S.A.
+                                                </p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <!-- Footer del modal con los links a los servicios de streaming-->
-                                                <a class="btn btn-circle spotify"
-                                                    href="https://open.spotify.com/intl-ja/album/5QL33hpDp6XBWdNsc0VGUO"
-                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
-                                                    target="_blank"><i class="bi bi-spotify"></i></a>
-                                                <a class="btn btn-circle applemusic"
-                                                    href="https://music.apple.com/ar/album/hotel-miranda/1682352592"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Escuchar en Apple Music" target="_blank"><i
-                                                        class="bi bi-apple"></i></a>
-                                                <a class="btn btn-circle youtubemusic"
-                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_k2KHGsInznQH8Kz4z3eRvgumYumIB4sIM"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Escuchar en YouTube Music" target="_blank"><i
-                                                        class="bi bi-youtube"></i></a>
-                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/5QL33hpDp6XBWdNsc0VGUO"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/hotel-miranda/1682352592"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_k2KHGsInznQH8Kz4z3eRvgumYumIB4sIM"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- Estudio 08 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                    <img class="card-img-top" src="img/discografia/estudio08-souvenir.jpeg"
-                                        alt="Tapa del album de estudio 8" data-bs-toggle="modal"
-                                        data-bs-target="#estudio8">
+                        <!-- Estudio 08 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/estudio08-souvenir.jpeg"
+                                    alt="Tapa del album de estudio 8" data-bs-toggle="modal" data-bs-target="#estudio8">
 
-                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                    <div class="card-body">
-                                        <p class="card-text text-center"><b>Souvenir
-                                            </b><br>07/05/2021</p>
-                                    </div>
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>Souvenir
+                                        </b><br>07/05/2021</p>
                                 </div>
+                            </div>
 
-                                <!-- Modal con info sobre el disco-->
-                                <div class="modal fade" id="estudio8" data-bs-backdrop="static" tabindex="-1"
-                                    aria-labelledby="estudio8Label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="estudio8Label">Souvenir</h1>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="estudio8" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="estudio8Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="estudio8Label">Souvenir</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/estudio08-souvenir.jpeg"
+                                                    alt="Tapa del album de estudio 9">
                                             </div>
-                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
-                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                                <div class="col-md-5">
-                                                    <img class="img-fluid rounded m-md-1"
-                                                        src="img/discografia/estudio08-souvenir.jpeg"
-                                                        alt="Tapa del album de estudio 9">
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p>Tipo: Álbum de estudio<br>
-                                                        Fecha de lanzamiento: 07/05/2021
-                                                        <hr class="solid"></p>
-                                                    <ol>
-                                                        <li>Por Amar Al Amor</li>
-                                                        <li>Caía La Noche</li>
-                                                        <li>Me Gustas Tanto (feat. Sidonie)</li>
-                                                        <li>Entre Las Dos <span>(con Javiera Mena)</span></li>
-                                                        <li>Luna De Papel</li>
-                                                        <li>No Es Lo Que Parece</li>
-                                                        <li>Un Tiempo</li>
-                                                        <li>En el Bar</li>
-                                                        <li>Que No Pare</li>
-                                                        <li>Casi Feliz</li>
-                                                    </ol>
-                                                    <hr class="solid">
-                                                    <p class="gris">07/05/2021<br>
-                                                        10 canciones y 33 minutos<br>
-                                                        ℗ 2021 Sony Music Entertainment Argentina S.A.
-                                                    </p>
-                                                </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Álbum de estudio<br>
+                                                    Fecha de lanzamiento: 07/05/2021
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
+                                                    <li>Por Amar Al Amor</li>
+                                                    <li>Caía La Noche</li>
+                                                    <li>Me Gustas Tanto (feat. Sidonie)</li>
+                                                    <li>Entre Las Dos <span>(con Javiera Mena)</span></li>
+                                                    <li>Luna De Papel</li>
+                                                    <li>No Es Lo Que Parece</li>
+                                                    <li>Un Tiempo</li>
+                                                    <li>En el Bar</li>
+                                                    <li>Que No Pare</li>
+                                                    <li>Casi Feliz</li>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">07/05/2021<br>
+                                                    10 canciones y 33 minutos<br>
+                                                    ℗ 2021 Sony Music Entertainment Argentina S.A.
+                                                </p>
                                             </div>
-                                            <div class="modal-footer">
-                                                <!-- Footer del modal con los links a los servicios de streaming-->
-                                                <a class="btn btn-circle spotify"
-                                                    href="https://open.spotify.com/intl-ja/album/6nva6vnxk725eRidB3AgbC"
-                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
-                                                    target="_blank"><i class="bi bi-spotify"></i></a>
-                                                <a class="btn btn-circle applemusic"
-                                                    href="https://music.apple.com/ar/album/souvenir/1566616711"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Escuchar en Apple Music" target="_blank"><i
-                                                        class="bi bi-apple"></i></a>
-                                                <a class="btn btn-circle youtubemusic"
-                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_kxE9QDf1QPsvvhB_z_SIYK-UMHmSuUzg8"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Escuchar en YouTube Music" target="_blank"><i
-                                                        class="bi bi-youtube"></i></a>
-                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/6nva6vnxk725eRidB3AgbC"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/souvenir/1566616711"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_kxE9QDf1QPsvvhB_z_SIYK-UMHmSuUzg8"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- Estudio 07 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                    <img class="card-img-top" src="img/discografia/estudio07-fuerte.jpeg"
-                                        alt="Tapa del album de estudio 07" data-bs-toggle="modal"
-                                        data-bs-target="#estudio7">
+                        <!-- Estudio 07 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/estudio07-fuerte.jpeg"
+                                    alt="Tapa del album de estudio 07" data-bs-toggle="modal"
+                                    data-bs-target="#estudio7">
 
-                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                    <div class="card-body">
-                                        <p class="card-text text-center"><b>Fuerte</b><br>21/04/2017</p>
-                                    </div>
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>Fuerte</b><br>21/04/2017</p>
                                 </div>
+                            </div>
 
-                                <!-- Modal con info sobre el disco-->
-                                <div class="modal fade" id="estudio7" data-bs-backdrop="static" tabindex="-1"
-                                    aria-labelledby="estudio7Label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="estudio7Label">Fuerte</h1>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="estudio7" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="estudio7Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="estudio7Label">Fuerte</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/estudio07-fuerte.jpeg"
+                                                    alt="Tapa del album de estudio 9">
                                             </div>
-                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
-                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                                <div class="col-md-5">
-                                                    <img class="img-fluid rounded m-md-1"
-                                                        src="img/discografia/estudio07-fuerte.jpeg"
-                                                        alt="Tapa del album de estudio 9">
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p>Tipo: Álbum de estudio<br>
-                                                        Fecha de lanzamiento: 21/04/2017
-                                                        <hr class="solid"></p>
-                                                    <ol>
-                                                        <li>743</li>
-                                                        <li>Cálido y rojo</li>
-                                                        <li>Lejos de mi alcance</li>
-                                                        <li>No</li>
-                                                        <li>Ahora que soy cantante</li>
-                                                        <li>Amante amigo</li>
-                                                        <li>Enero <span>(con Jesús Navarro)</span></li>
-                                                        <li>En esta noche</li>
-                                                        <li>Tu hombre <span>(con Natalia Oreiro)</span></li>
-                                                        <li>Tu padre</li>
-                                                        <li>Quiero vivir a tu lado</li>
-                                                        <li>Mala señal</li>
-                                                    </ol>
-                                                    <hr class="solid">
-                                                    <p class="gris">21/04/2017<br>
-                                                        12 canciones y 40 minutos<br>
-                                                        ℗ 2017 Sony Music Entertainment Argentina S.A.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer"> <!-- Footer del modal con los links a los servicios de streaming-->
-                                                <a class="btn btn-circle spotify" href="https://open.spotify.com/intl-ja/album/79td5wJW8V4nVgnCUEKWbJ" role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
-                                                <a class="btn btn-circle applemusic" href="https://music.apple.com/ar/album/fuerte/1224336586" role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
-                                                <a class="btn btn-circle youtubemusic" href="https://music.youtube.com/playlist?list=OLAK5uy_koTtw74bFeRkyDFO2Bkl5WhM0C1OhXonE" role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music" target="_blank"><i class="bi bi-youtube"></i></a>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Álbum de estudio<br>
+                                                    Fecha de lanzamiento: 21/04/2017
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
+                                                    <li>743</li>
+                                                    <li>Cálido y rojo</li>
+                                                    <li>Lejos de mi alcance</li>
+                                                    <li>No</li>
+                                                    <li>Ahora que soy cantante</li>
+                                                    <li>Amante amigo</li>
+                                                    <li>Enero <span>(con Jesús Navarro)</span></li>
+                                                    <li>En esta noche</li>
+                                                    <li>Tu hombre <span>(con Natalia Oreiro)</span></li>
+                                                    <li>Tu padre</li>
+                                                    <li>Quiero vivir a tu lado</li>
+                                                    <li>Mala señal</li>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">21/04/2017<br>
+                                                    12 canciones y 40 minutos<br>
+                                                    ℗ 2017 Sony Music Entertainment Argentina S.A.
+                                                </p>
                                             </div>
                                         </div>
-                                        </div>
-                                    </div>
-                                </div>
-    
-
-                            <!-- estudio 06 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                    <img class="card-img-top" src="img/discografia/estudio06-safari.jpeg"
-                                        alt="Tapa del album de estudio 06" data-bs-toggle="modal"
-                                        data-bs-target="#estudio6">
-
-                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                    <div class="card-body">
-                                        <p class="card-text text-center"><b>Safari</b><br>05/05/2014</p>
-                                    </div>
-                                </div>
-
-                                <!-- Modal con info sobre el disco-->
-                                <div class="modal fade" id="estudio6" data-bs-backdrop="static" tabindex="-1"
-                                    aria-labelledby="estudio6Label" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="estudio6Label">Safari</h1>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
-                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                                <div class="col-md-5">
-                                                    <img class="img-fluid rounded m-md-1"
-                                                        src="img/discografia/estudio06-safari.jpeg"
-                                                        alt="Tapa del album de estudio 9">
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <p>Tipo: Álbum de estudio<br>
-                                                        Fecha de lanzamiento: 05/05/2014
-                                                        <hr class="solid"></p>
-                                                    <ol>
-                                                        <li>Fantasmas</li>
-                                                        <li>Extraño</li>
-                                                        <li>Es por él</li>
-                                                        <li>Solo lo sabe la luna</li>
-                                                        <li>Miro la vida pasar <span>(con Fangoria)</span></li>
-                                                        <li>Sé mía</li>
-                                                        <li>Buen día</li>
-                                                        <li>Nadie como tú</li>
-                                                        <li>Fotos</li>
-                                                        <li>Para olvidar tu amor</li>
-                                                        <li>Fantasmas (Versión Acústica)</li>
-                                                        <li>Extraño (Versión Acústica)</li>
-                                                        <li>Es por él (Versión Acústica)</li>
-                                                        <li>Solo lo sabe la luna (Versión Acústica)</li>
-                                                        <li>Miro la vida pasar (Versión Acústica)</li>
-                                                        <li>Sé mía (Versión Acústica)</li>
-                                                        <li>Buen día (Versión Acústica)</li>
-                                                        <li>Nadie como tú (Versión Acústica)</li>
-                                                        <li>Fotos (Versión Acústica)</li>
-                                                        <li>Para olvidar tu amor (Versión Acústica)</li>
-                                                    </ol>
-                                                    <hr class="solid">
-                                                    <p class="gris">05/05/2014<br>
-                                                        20 canciones y 1 hora 5 minutos<br>
-                                                        ℗ 2014 Pelo Music S.A.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <!-- Footer del modal con los links a los servicios de streaming-->
-                                                <a class="btn btn-circle spotify"
-                                                    href="https://open.spotify.com/intl-ja/album/3zkAWa490tzBYIEEG7heay"
-                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
-                                                    target="_blank"><i class="bi bi-spotify"></i></a>
-                                                <a class="btn btn-circle applemusic"
-                                                    href="https://music.apple.com/ar/album/safari/1043848894"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Escuchar en Apple Music" target="_blank"><i
-                                                        class="bi bi-apple"></i></a>
-                                                <a class="btn btn-circle youtubemusic"
-                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_lZKKY16YDJV3Y1SlfT23UPs7P7Vse-1To"
-                                                    role="button" data-bs-toggle="tooltip"
-                                                    title="Escuchar en YouTube Music" target="_blank"><i
-                                                        class="bi bi-youtube"></i></a>
-                                            </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/79td5wJW8V4nVgnCUEKWbJ"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/fuerte/1224336586" role="button"
+                                                data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_koTtw74bFeRkyDFO2Bkl5WhM0C1OhXonE"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- Estudio 05 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                  <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                  <img class="card-img-top" src="img/discografia/estudio05-magistral.jpeg" alt="Tapa del album de estudio 05" data-bs-toggle="modal" data-bs-target="#estudio5">
-                                      
-                                  <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                  <div class="card-body">
+
+                        <!-- estudio 06 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/estudio06-safari.jpeg"
+                                    alt="Tapa del album de estudio 06" data-bs-toggle="modal"
+                                    data-bs-target="#estudio6">
+
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>Safari</b><br>05/05/2014</p>
+                                </div>
+                            </div>
+
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="estudio6" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="estudio6Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="estudio6Label">Safari</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/estudio06-safari.jpeg"
+                                                    alt="Tapa del album de estudio 9">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Álbum de estudio<br>
+                                                    Fecha de lanzamiento: 05/05/2014
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
+                                                    <li>Fantasmas</li>
+                                                    <li>Extraño</li>
+                                                    <li>Es por él</li>
+                                                    <li>Solo lo sabe la luna</li>
+                                                    <li>Miro la vida pasar <span>(con Fangoria)</span></li>
+                                                    <li>Sé mía</li>
+                                                    <li>Buen día</li>
+                                                    <li>Nadie como tú</li>
+                                                    <li>Fotos</li>
+                                                    <li>Para olvidar tu amor</li>
+                                                    <li>Fantasmas (Versión Acústica)</li>
+                                                    <li>Extraño (Versión Acústica)</li>
+                                                    <li>Es por él (Versión Acústica)</li>
+                                                    <li>Solo lo sabe la luna (Versión Acústica)</li>
+                                                    <li>Miro la vida pasar (Versión Acústica)</li>
+                                                    <li>Sé mía (Versión Acústica)</li>
+                                                    <li>Buen día (Versión Acústica)</li>
+                                                    <li>Nadie como tú (Versión Acústica)</li>
+                                                    <li>Fotos (Versión Acústica)</li>
+                                                    <li>Para olvidar tu amor (Versión Acústica)</li>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">05/05/2014<br>
+                                                    20 canciones y 1 hora 5 minutos<br>
+                                                    ℗ 2014 Pelo Music S.A.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/3zkAWa490tzBYIEEG7heay"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/safari/1043848894" role="button"
+                                                data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_lZKKY16YDJV3Y1SlfT23UPs7P7Vse-1To"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Estudio 05 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/estudio05-magistral.jpeg"
+                                    alt="Tapa del album de estudio 05" data-bs-toggle="modal"
+                                    data-bs-target="#estudio5">
+
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
                                     <p class="card-text text-center"><b>Magistral</b><br>09/09/2011</p>
-                                  </div>
                                 </div>
-                              
-                                <!-- Modal con info sobre el disco-->
-                                  <div class="modal fade" id="estudio5" data-bs-backdrop="static" tabindex="-1" aria-labelledby="estudio5Label" aria-hidden="true">
-                                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                      <div class="modal-content">
-                                          <div class="modal-header">
-                                          <h1 class="modal-title fs-5" id="estudio5Label">Magistral</h1>
-                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                          </div>
-                                          <div class="modal-body row row-cols-sm-1 row-cols-sm-2"> <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                              <div class="col-md-5">
-                                                  <img class="img-fluid rounded m-md-1" src="img/discografia/estudio05-magistral.jpeg" alt="Tapa del album de estudio 9">
-                                              </div>
-                                              <div class="col-md-7">
-                                                  <p>Tipo: Álbum de estudio<br>
-                                                      Fecha de lanzamiento: 09/09/2011
-                                                  <hr class="solid"></p>
-                                                  <ol>
+                            </div>
+
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="estudio5" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="estudio5Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="estudio5Label">Magistral</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/estudio05-magistral.jpeg"
+                                                    alt="Tapa del album de estudio 9">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Álbum de estudio<br>
+                                                    Fecha de lanzamiento: 09/09/2011
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
                                                     <li>Dice lo que siente</li>
                                                     <li>Ya lo sabía</li>
                                                     <li>A la distancia</li>
@@ -451,53 +463,72 @@
                                                     <li>Ritmo y decepción (remix)</li>
                                                     <li>Dice lo que siente (remix)</li>
                                                     <li>Ritmo y decepción (instrumental)</li>
-                                                  </ol>
-                                                  <hr class="solid">
-                                                  <p class="gris">09/09/2011<br>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">09/09/2011<br>
                                                     13 canciones y 43 minutos<br>
                                                     ℗ 2011 Pelo Music S.A.
-                                                  </p>
-                                              </div>
-                                          </div>
-                                          <div class="modal-footer"> <!-- Footer del modal con los links a los servicios de streaming-->
-                                              <a class="btn btn-circle spotify" href="https://open.spotify.com/intl-ja/album/1OZjewK6BpdLB24XlLkBbS" role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
-                                              <a class="btn btn-circle applemusic" href="https://music.apple.com/ar/album/magistral/1072704987" role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
-                                              <a class="btn btn-circle youtubemusic" href="https://music.youtube.com/playlist?list=OLAK5uy_mZAI48CvQK1L0jmjzY3ZZLAavJuY9sAg0" role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music" target="_blank"><i class="bi bi-youtube"></i></a>
-                                          </div>
-                                      </div>
-                                      </div>
-                                  </div>
-                              </div>
-  
-                            <!-- estudio 04 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                  <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                  <img class="card-img-top" src="img/discografia/estudio04-esimposible.jpeg" alt="Tapa del album de estudio 04" data-bs-toggle="modal" data-bs-target="#estudio4">
-                                      
-                                  <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                  <div class="card-body">
-                                    <p class="card-text text-center"><b>Miranda es Imposible!</b><br>25/07/2009</p>
-                                  </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/1OZjewK6BpdLB24XlLkBbS"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/magistral/1072704987"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_mZAI48CvQK1L0jmjzY3ZZLAavJuY9sAg0"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                              
-                                <!-- Modal con info sobre el disco-->
-                                  <div class="modal fade" id="estudio4" data-bs-backdrop="static" tabindex="-1" aria-labelledby="estudio4Label" aria-hidden="true">
-                                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                      <div class="modal-content">
-                                          <div class="modal-header">
-                                          <h1 class="modal-title fs-5" id="estudio4Label">Miranda es Imposible!</h1>
-                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                          </div>
-                                          <div class="modal-body row row-cols-sm-1 row-cols-sm-2"> <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                              <div class="col-md-5">
-                                                  <img class="img-fluid rounded m-md-1" src="img/discografia/estudio04-esimposible.jpeg" alt="Tapa del album de estudio 9">
-                                              </div>
-                                              <div class="col-md-7">
-                                                  <p>Tipo: Álbum de estudio<br>
-                                                      Fecha de lanzamiento: 25/07/2009
-                                                  <hr class="solid"></p>
-                                                  <ol>
+                            </div>
+                        </div>
+
+                        <!-- estudio 04 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/estudio04-esimposible.jpeg"
+                                    alt="Tapa del album de estudio 04" data-bs-toggle="modal"
+                                    data-bs-target="#estudio4">
+
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>Miranda es Imposible!</b><br>25/07/2009</p>
+                                </div>
+                            </div>
+
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="estudio4" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="estudio4Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="estudio4Label">Miranda es Imposible!
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/estudio04-esimposible.jpeg"
+                                                    alt="Tapa del album de estudio 9">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Álbum de estudio<br>
+                                                    Fecha de lanzamiento: 25/07/2009
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
                                                     <li>Mentía</li>
                                                     <li>Lo Que Siento Por Ti</li>
                                                     <li>Romance Juvenil</li>
@@ -508,53 +539,72 @@
                                                     <li>No Lo Digas</li>
                                                     <li>Entre Mis Brazos</li>
                                                     <li>Hola Probando</li>
-                                                  </ol>
-                                                  <hr class="solid">
-                                                  <p class="gris">25/07/2009<br>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">25/07/2009<br>
                                                     10 canciones y 35 minutos<br>
                                                     ℗ 2009 Pelo Music S.A.
-                                                  </p>
-                                              </div>
-                                          </div>
-                                          <div class="modal-footer"> <!-- Footer del modal con los links a los servicios de streaming-->
-                                              <a class="btn btn-circle spotify" href="https://open.spotify.com/intl-ja/album/1UTpvroWrhmgpntarWj1OO" role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
-                                              <a class="btn btn-circle applemusic" href="https://music.apple.com/ar/album/miranda-es-imposible/1044479511" role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
-                                              <a class="btn btn-circle youtubemusic" href="https://music.youtube.com/playlist?list=OLAK5uy_n6bUMmifHRXJXGK1vmju2cEALda8a-vaM" role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music" target="_blank"><i class="bi bi-youtube"></i></a>
-                                          </div>
-                                      </div>
-                                      </div>
-                                  </div>
-                              </div>
-  
-                            <!-- Estudio 03 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                  <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                  <img class="card-img-top" src="img/discografia/estudio03-eldiscodetucorazon.jpeg" alt="Tapa del album de estudio 03" data-bs-toggle="modal" data-bs-target="#estudio3">
-                                      
-                                  <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                  <div class="card-body">
-                                    <p class="card-text text-center"><b>El disco de tu corazón</b><br>01/05/2007</p>
-                                  </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/1UTpvroWrhmgpntarWj1OO"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/miranda-es-imposible/1044479511"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_n6bUMmifHRXJXGK1vmju2cEALda8a-vaM"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                              
-                                <!-- Modal con info sobre el disco-->
-                                  <div class="modal fade" id="estudio3" data-bs-backdrop="static" tabindex="-1" aria-labelledby="estudio3Label" aria-hidden="true">
-                                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                      <div class="modal-content">
-                                          <div class="modal-header">
-                                          <h1 class="modal-title fs-5" id="estudio3Label">El disco de tu corazón</h1>
-                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                          </div>
-                                          <div class="modal-body row row-cols-sm-1 row-cols-sm-2"> <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                              <div class="col-md-5">
-                                                  <img class="img-fluid rounded m-md-1" src="img/discografia/estudio03-eldiscodetucorazon.jpeg" alt="Tapa del album de estudio 9">
-                                              </div>
-                                              <div class="col-md-7">
-                                                  <p>Tipo: Álbum de estudio<br>
-                                                      Fecha de lanzamiento: 01/05/2007
-                                                  <hr class="solid"></p>
-                                                  <ol>
+                            </div>
+                        </div>
+
+                        <!-- Estudio 03 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/estudio03-eldiscodetucorazon.jpeg"
+                                    alt="Tapa del album de estudio 03" data-bs-toggle="modal"
+                                    data-bs-target="#estudio3">
+
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>El disco de tu corazón</b><br>01/05/2007</p>
+                                </div>
+                            </div>
+
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="estudio3" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="estudio3Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="estudio3Label">El disco de tu corazón
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/estudio03-eldiscodetucorazon.jpeg"
+                                                    alt="Tapa del album de estudio 9">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Álbum de estudio<br>
+                                                    Fecha de lanzamiento: 01/05/2007
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
                                                     <li>Prisionero</li>
                                                     <li>Hola</li>
                                                     <li>Perfecta (feat. Julieta Venegas)</li>
@@ -567,53 +617,71 @@
                                                     <li>No Me Celes</li>
                                                     <li>Te Atreviste y Me Morí</li>
                                                     <li>Voces</li>
-                                                  </ol>
-                                                  <hr class="solid">
-                                                  <p class="gris">01/05/2007<br>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">01/05/2007<br>
                                                     12 canciones y 39 minutos<br>
                                                     ℗ 2007 Pelo Music S.A.
-                                                  </p>
-                                              </div>
-                                          </div>
-                                          <div class="modal-footer"> <!-- Footer del modal con los links a los servicios de streaming-->
-                                              <a class="btn btn-circle spotify" href="https://open.spotify.com/intl-ja/album/23sglTmI7lQhVogpoa5TXe" role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
-                                              <a class="btn btn-circle applemusic" href="https://music.apple.com/ar/album/el-disco-de-tu-coraz%C3%B3n/1043848308" role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
-                                              <a class="btn btn-circle youtubemusic" href="https://music.youtube.com/playlist?list=OLAK5uy_mE2ot2XD2_Qm-B8nhNC6GUr0lx-KXxcjg" role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music" target="_blank"><i class="bi bi-youtube"></i></a>
-                                          </div>
-                                      </div>
-                                      </div>
-                                  </div>
-                              </div>
-  
-                            <!-- Estudio 02 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                  <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                  <img class="card-img-top" src="img/discografia/estudio02-sinrestricciones.jpeg" alt="Tapa del album de estudio 02" data-bs-toggle="modal" data-bs-target="#estudio2">
-                                      
-                                  <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                  <div class="card-body">
-                                    <p class="card-text text-center"><b>Sin restricciones</b><br>21/09/2004</p>
-                                  </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/23sglTmI7lQhVogpoa5TXe"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/el-disco-de-tu-coraz%C3%B3n/1043848308"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_mE2ot2XD2_Qm-B8nhNC6GUr0lx-KXxcjg"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                              
-                                <!-- Modal con info sobre el disco-->
-                                  <div class="modal fade" id="estudio2" data-bs-backdrop="static" tabindex="-1" aria-labelledby="estudio2Label" aria-hidden="true">
-                                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                      <div class="modal-content">
-                                          <div class="modal-header">
-                                          <h1 class="modal-title fs-5" id="estudio2Label">Sin restricciones</h1>
-                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                          </div>
-                                          <div class="modal-body row row-cols-sm-1 row-cols-sm-2"> <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                              <div class="col-md-5">
-                                                  <img class="img-fluid rounded m-md-1" src="img/discografia/estudio02-sinrestricciones.jpeg" alt="Tapa del album de estudio 9">
-                                              </div>
-                                              <div class="col-md-7">
-                                                  <p>Tipo: Álbum de estudio<br>
-                                                      Fecha de lanzamiento: 21/09/2004
-                                                  <hr class="solid"></p>
-                                                  <ol>
+                            </div>
+                        </div>
+
+                        <!-- Estudio 02 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/estudio02-sinrestricciones.jpeg"
+                                    alt="Tapa del album de estudio 02" data-bs-toggle="modal"
+                                    data-bs-target="#estudio2">
+
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>Sin restricciones</b><br>21/09/2004</p>
+                                </div>
+                            </div>
+
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="estudio2" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="estudio2Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="estudio2Label">Sin restricciones</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/estudio02-sinrestricciones.jpeg"
+                                                    alt="Tapa del album de estudio 9">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Álbum de estudio<br>
+                                                    Fecha de lanzamiento: 21/09/2004
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
                                                     <li>Yo te diré</li>
                                                     <li>Don</li>
                                                     <li>Quiero</li>
@@ -626,53 +694,71 @@
                                                     <li>Navidad</li>
                                                     <li>Traición</li>
                                                     <li>Uno los dos</li>
-                                                  </ol>
-                                                  <hr class="solid">
-                                                  <p class="gris">21/09/2004<br>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">21/09/2004<br>
                                                     12 canciones y 38 minutos<br>
                                                     ℗ 2004 Pelo Music S.A.
-                                                  </p>
-                                              </div>
-                                          </div>
-                                          <div class="modal-footer"> <!-- Footer del modal con los links a los servicios de streaming-->
-                                              <a class="btn btn-circle spotify" href="https://open.spotify.com/intl-ja/album/1AHlMa2wtRfyS8ZGyv6NbD" role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
-                                              <a class="btn btn-circle applemusic" href="https://music.apple.com/ar/album/sin-restricciones/1043847381" role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
-                                              <a class="btn btn-circle youtubemusic" href="https://music.youtube.com/playlist?list=OLAK5uy_kZbZx24IMkJthyjgXzDVQ7R4NkQ_PSKQo" role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music" target="_blank"><i class="bi bi-youtube"></i></a>
-                                          </div>
-                                      </div>
-                                      </div>
-                                  </div>
-                              </div>
-  
-                            <!-- Estudio 01 -->
-                            <div class="col">
-                                <div class="card mb-3 box-shadow">
-                                  <!-- Tapa del disco que al ser clickeado, salta el modal-->
-                                  <img class="card-img-top" src="img/discografia/estudio01-esmentira.jpeg" alt="Tapa del album de estudio 01" data-bs-toggle="modal" data-bs-target="#estudio1">
-                                      
-                                  <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
-                                  <div class="card-body">
-                                    <p class="card-text text-center"><b>Es mentira</b><br>01/11/2002</p>
-                                  </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/1AHlMa2wtRfyS8ZGyv6NbD"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/sin-restricciones/1043847381"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_kZbZx24IMkJthyjgXzDVQ7R4NkQ_PSKQo"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                              
-                                <!-- Modal con info sobre el disco-->
-                                  <div class="modal fade" id="estudio1" data-bs-backdrop="static" tabindex="-1" aria-labelledby="estudio1Label" aria-hidden="true">
-                                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                                      <div class="modal-content">
-                                          <div class="modal-header">
-                                          <h1 class="modal-title fs-5" id="estudio1Label">Es mentira</h1>
-                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                          </div>
-                                          <div class="modal-body row row-cols-sm-1 row-cols-sm-2"> <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
-                                              <div class="col-md-5">
-                                                  <img class="img-fluid rounded m-md-1" src="img/discografia/estudio01-esmentira.jpeg" alt="Tapa del album de estudio 9">
-                                              </div>
-                                              <div class="col-md-7">
-                                                  <p>Tipo: Álbum de estudio<br>
-                                                      Fecha de lanzamiento: 01/11/2002
-                                                  <hr class="solid"></p>
-                                                  <ol>
+                            </div>
+                        </div>
+
+                        <!-- Estudio 01 -->
+                        <div class="col">
+                            <div class="card mb-3 box-shadow">
+                                <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                <img class="card-img-top" src="img/discografia/estudio01-esmentira.jpeg"
+                                    alt="Tapa del album de estudio 01" data-bs-toggle="modal"
+                                    data-bs-target="#estudio1">
+
+                                <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                <div class="card-body">
+                                    <p class="card-text text-center"><b>Es mentira</b><br>01/11/2002</p>
+                                </div>
+                            </div>
+
+                            <!-- Modal con info sobre el disco-->
+                            <div class="modal fade" id="estudio1" data-bs-backdrop="static" tabindex="-1"
+                                aria-labelledby="estudio1Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="estudio1Label">Es mentira</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                            <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                            <div class="col-md-5">
+                                                <img class="img-fluid rounded m-md-1"
+                                                    src="img/discografia/estudio01-esmentira.jpeg"
+                                                    alt="Tapa del album de estudio 9">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <p>Tipo: Álbum de estudio<br>
+                                                    Fecha de lanzamiento: 01/11/2002
+                                                </p>
+                                                <hr class="solid">
+                                                <ol>
                                                     <li>Bailarina</li>
                                                     <li>Horóscopo</li>
                                                     <li>Romix</li>
@@ -683,32 +769,41 @@
                                                     <li>Mentira</li>
                                                     <li>Tiempo</li>
                                                     <li>Casualidad</li>
-                                                  </ol>
-                                                  <hr class="solid">
-                                                  <p class="gris">01/11/2002<br>
+                                                </ol>
+                                                <hr class="solid">
+                                                <p class="gris">01/11/2002<br>
                                                     10 canciones y 46 minutos<br>
                                                     ℗ 2002 Pelo Music S.A.
-                                                  </p>
-                                              </div>
-                                          </div>
-                                          <div class="modal-footer"> <!-- Footer del modal con los links a los servicios de streaming-->
-                                              <a class="btn btn-circle spotify" href="https://open.spotify.com/intl-ja/album/4gSJO6NAABBQT1IjcXnofg" role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify" target="_blank"><i class="bi bi-spotify"></i></a>
-                                              <a class="btn btn-circle applemusic" href="https://music.apple.com/ar/album/es-mentira/1043376083" role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music" target="_blank"><i class="bi bi-apple"></i></a>
-                                              <a class="btn btn-circle youtubemusic" href="https://music.youtube.com/playlist?list=OLAK5uy_nRAmAuDraQK2_jMMQhKreZPMHdHsJs_44" role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music" target="_blank"><i class="bi bi-youtube"></i></a>
-                                          </div>
-                                      </div>
-                                      </div>
-                                  </div>
-                              </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- Footer del modal con los links a los servicios de streaming-->
+                                            <a class="btn btn-circle spotify"
+                                                href="https://open.spotify.com/intl-ja/album/4gSJO6NAABBQT1IjcXnofg"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                target="_blank"><i class="bi bi-spotify"></i></a>
+                                            <a class="btn btn-circle applemusic"
+                                                href="https://music.apple.com/ar/album/es-mentira/1043376083"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en Apple Music"
+                                                target="_blank"><i class="bi bi-apple"></i></a>
+                                            <a class="btn btn-circle youtubemusic"
+                                                href="https://music.youtube.com/playlist?list=OLAK5uy_nRAmAuDraQK2_jMMQhKreZPMHdHsJs_44"
+                                                role="button" data-bs-toggle="tooltip" title="Escuchar en YouTube Music"
+                                                target="_blank"><i class="bi bi-youtube"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                              <div class="col"></div> <!-- Columna agregada por ser número impar-->
-  
-                        </div> <!-- Cierra el row -->
-                    </div>
-    </div>
-    </div>
-    </section>
-    </article>
+                        <div class="col"></div> <!-- Columna agregada por ser número impar-->
+
+                    </div> <!-- Cierra el row -->
+                </div>
+
+            </section>
+        </article>
     </main>
     <div>
         <footer class="p-3">
@@ -735,7 +830,6 @@
             <p>© Miranda! | Agencia APA - Todos los derechos reservados<br>
                 ℗ 2024 Sony Music Entertainment Argentina S.A.</p>
         </footer>
-    </div>
     </div>
     <!--linkeo script-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
