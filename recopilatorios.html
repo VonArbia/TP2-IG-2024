@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Discografía | Miranda!</title>
+    <!--link a google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">MIRANDA!</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="eventos.html">Eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="biografia.html">Biografía</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="discografia.html">Discografía</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="desarrolladores.html">Desarrolladores</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h1 class="text-center py-3">Discografía</h1>
+                <section class="menudiscosuno">
+                    <div class="dropdown-center">
+                        <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Álbumes de estudio
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="discografia.html">Sencillos</a>
+                            <a class="dropdown-item" href="estudio.html">Álbumes de estudio</a>
+                            <a class="dropdown-item" href="directo.html">Álbumes en directo</a>
+                            <a class="dropdown-item" href="recopilatorios.html">Álbumes recopilatorios</a>
+                            <a class="dropdown-item" href="ep.html">EPs</a>
+                            <a class="dropdown-item" href="video.html">Álbumes de video</a>
+                            <a class="dropdown-item" href="vinilo.html">Vinilos</a>
+                        </div>
+                    </div>
+                </section><br>
+                <section class="menudiscosdos">
+                    <ul class="nav nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link" href="discografia.html">Sencillos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page">Álbumes de estudio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="directo.html">Álbumes en directo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recopilatorios.html">Álbumes recopilatorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ep.html">EPs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Álbumes de video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vinilo.html">Vinilos</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="album py-5">
+                    <div class="container">
+                        <div class="row row-cols-sm-2 row-cols-md-5 g-3"> <!-- 2 columnas para celular y 5 para compu-->
+
+                            <!-- Acá empieza un disco -->
+                            <!-- recop 4 -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                    <img class="card-img-top"
+                                        src="img/discografia/recopilatorio04-thehistory20022007.jpeg"
+                                        alt="Tapa del album de The History 2002-2007" data-bs-toggle="modal"
+                                        data-bs-target="#recopilatorio4">
+
+                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                    <div class="card-body">
+                                        <p class="card-text text-center"><b>The History 2002-2007</b><br>09/11/2018</p>
+                                    </div>
+                                </div>
+
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="recopilatorio4" data-bs-backdrop="static" tabindex="-1"
+                                    aria-labelledby="recopilatorio5Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="recopilatorio5Label">The History
+                                                    2002-2007</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                                <div class="col-md-5">
+                                                    <img class="img-fluid rounded m-md-1"
+                                                        src="img/discografia/recopilatorio04-thehistory20022007.jpeg"
+                                                        alt="Tapa del album de The History 2002-2007">
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <p>Tipo: Álbum Recopilatorio<br>
+                                                        Fecha de lanzamiento: 09/11/2018
+                                                        <hr class="solid">
+                                                    </p>
+                                                    <ol>
+                                                        <li>Imán</li>
+                                                        <li>Bailarina</li>
+                                                        <li>Yo te diré</li>
+                                                        <li>Otra vez</li>
+                                                        <li>Tu juego</li>
+                                                        <li>Mentira</li>
+                                                        <li>El profe</li>
+                                                        <li>El agente</li>
+                                                        <li>Perfecta (feat. Julieta Venegas)</li>
+                                                        <li>Don</li>
+                                                        <li>Traición</li>
+                                                        <li>Romix</li>
+                                                        <li>Prisionero</li>
+                                                        <li>Hola</li>
+                                                        <li>Enamorada</li>
+                                                        <li>Uno los dos</li>
+                                                        <li>Casualidad</li>
+                                                        <li>No Me Celes</li>
+                                                        <li>Nada Es Igual</li>
+                                                        <li>Vete de Aquí (feat. Fangoria)</li>
+                                                    </ol>
+                                                    <hr class="solid">
+                                                    <p class="gris">09/11/2018<br>
+                                                        20 canciones y 1 hora 12 minutos<br>
+                                                        ℗ 2002 Pelo Music S.A.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Footer del modal con los links a los servicios de streaming-->
+                                                <a class="btn btn-circle spotify"
+                                                    href="https://open.spotify.com/intl-ja/album/7bQakKjs7sco4PpHkdvT33"
+                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                    target="_blank"><i class="bi bi-spotify"></i></a>
+                                                <a class="btn btn-circle applemusic"
+                                                    href="https://music.apple.com/ar/album/the-history-2002-2007/1440688428"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en Apple Music" target="_blank"><i
+                                                        class="bi bi-apple"></i></a>
+                                                <a class="btn btn-circle youtubemusic"
+                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_ljk5dp_9TY_fT_SpBw8Sy0WfSLCxnu69s"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en YouTube Music" target="_blank"><i
+                                                        class="bi bi-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Hasta acá es un disco-->
+                            <!-- Acá empieza un disco -->
+                            <!-- recop3 -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                    <img class="card-img-top" src="img/discografia/recopilatorio03-greatestfeats.jpeg"
+                                        alt="Tapa del album de Greatest feats" data-bs-toggle="modal"
+                                        data-bs-target="#recopilatorio3">
+
+                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                    <div class="card-body">
+                                        <p class="card-text text-center"><b>Gratest Feats</b><br>03/08/2018</p>
+                                    </div>
+                                </div>
+
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="recopilatorio3" data-bs-backdrop="static" tabindex="-1"
+                                    aria-labelledby="recopilatorio4Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="recopilatorio4Label">Gratest Feats</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                                <div class="col-md-5">
+                                                    <img class="img-fluid rounded m-md-1"
+                                                        src="img/discografia/recopilatorio03-greatestfeats.jpeg"
+                                                        alt="Tapa del album de Gratest Feats">
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <p>Tipo: Álbum recopilatorio<br>
+                                                        Fecha de lanzamiento: 03/08/2018</p>
+                                                    <hr class="solid">
+                                                    <ol>
+                                                        <li>Miro la vida pasar - Remasteded 2018 <span>(feat.
+                                                                Fangoria)</span></li>
+                                                        <li>Fantasmas - En Vivo - Remasteded 2018 <span>(feat. Cachorro
+                                                                Lopez y Sebastián Schon)</span></li>
+                                                        <li>Tu juego - En Vivo - Remasteded 2018 <span>(feat.
+                                                                Chano)</span></li>
+                                                        <li>Tucán - Remasteded 2018 <span>(feat. Emmanuel
+                                                                Horvilleur)</span></li>
+                                                        <li>Cena Para Cuatro - Remasteded 2018 <span>(feat.
+                                                                Pimpinela)</span></li>
+                                                        <li>Perfecta - Remasteded 2018 <span>(feat. Agapornis)</span>
+                                                        </li>
+                                                        <li>Apostar Al Amor - En Vivo - Remasteded 2018 <span>(feat. Los
+                                                                Tipitos)</span></li>
+                                                        <li>Don - En Vivo - Remasteded 2018 <span>(feat. Juanse)</span>
+                                                        </li>
+                                                        <li>Ya Lo Sabía / Dime Que Me Amas / All You Need Is Love - En
+                                                            Vivo - Remasteded 2018 <span>(feat. Axel)</span></li>
+                                                        <li>Medicinal - Remasteded 2018 <span>(feat. Mariana
+                                                                Vega)</span></li>
+                                                        <li>Vete De Aquí - Remasteded 2018 <span>(feat. Fangoria)</span>
+                                                        </li>
+                                                        <li>Mentía - En Vivo - Remasteded 2018 <span>(feat.
+                                                                Juanse)</span></li>
+                                                        <li>Navidad - En Vivo - Remasteded 2018 <span>(feat. Los
+                                                                Tipitos)</span></li>
+
+                                                    </ol>
+                                                    <hr class="solid">
+                                                    <p class="gris">03/08/2018<br>
+                                                        13 canciones y 50 minutos<br>
+                                                        ℗ 2018 Pelo Music S.A.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Footer del modal con los links a los servicios de streaming-->
+                                                <a class="btn btn-circle spotify"
+                                                    href="https://open.spotify.com/intl-ja/album/5WATv1nWYo4eyPhsbRi4Aq"
+                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                    target="_blank"><i class="bi bi-spotify"></i></a>
+                                                <a class="btn btn-circle applemusic"
+                                                    href="https://music.apple.com/ar/album/greatest-feats/1416927901"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en Apple Music" target="_blank"><i
+                                                        class="bi bi-apple"></i></a>
+                                                <a class="btn btn-circle youtubemusic"
+                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_le4x2U5K0Nhiq44Wm9UmgRKnrWxaHhAqQ"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en YouTube Music" target="_blank"><i
+                                                        class="bi bi-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Hasta acá es un disco-->
+                            <!-- Acá empieza un disco -->
+                            <!-- recop 2 -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                    <img class="card-img-top"
+                                        src="img/discografia/recopilatorio02-eltemplodelpopvol2.jpeg"
+                                        alt="Tapa del album de El Templo del pop, vol.2" data-bs-toggle="modal"
+                                        data-bs-target="#recopilatiorio2">
+
+                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                    <div class="card-body">
+                                        <p class="card-text text-center"><b>El Templo del Pop, Vol.2</b><br>23/09/2016
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="recopilatiorio2" data-bs-backdrop="static" tabindex="-1"
+                                    aria-labelledby="recopilatiorio3Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="recopilatiorio3Label">El Templo Del
+                                                    Pop, Vol. 2</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                                <div class="col-md-5">
+                                                    <img class="img-fluid rounded m-md-1"
+                                                        src="img/discografia/recopilatorio02-eltemplodelpopvol2.jpeg"
+                                                        alt="Tapa del album de El Templo Del Pop, Vol. 2">
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <p>Tipo: Álbum recopilatorio<br>
+                                                        Fecha de lanzamiento: 23/09/2016</p>
+                                                    <hr class="solid">
+                                                    <ol>
+                                                        <li>Lo Que Siento Por Ti</li>
+                                                        <li>Mentía</li>
+                                                        <li>Ya lo sabía</li>
+                                                        <li>Es por él</li>
+                                                        <li>Puro talento</li>
+                                                        <li>Tu Misterioso Alguien</li>
+                                                        <li>El Showcito</li>
+                                                        <li>A la distancia</li>
+                                                        <li>Nadie como tú</li>
+                                                        <li>No Lo Digas</li>
+                                                        <li>Fantasmas</li>
+                                                        <li>Extraño</li>
+                                                        <li>Hola Probando</li>
+                                                        <li>Ritmo y decepción</li>
+                                                        <li>Gran Amistad</li>
+                                                        <li>Miro la vida pasar <span>(con Fangoria)</span></li>
+                                                        <li>Amor Amarillo - En Vivo</li>
+                                                        <li>10 Años Después</li>
+                                                        <li>Sé mía</li>
+                                                        <li>Ya las Quemé </li>
+                                                        <li>Más de Lo Que Te Imaginas</li>
+                                                        <li>Enamorada (Versión en Portugués)</li>
+                                                        <li>Perfecta (Versión en Portugués)</li>
+                                                    </ol>
+                                                    <hr class="solid">
+                                                    <p class="gris">23/09/2016<br>
+                                                        23 canciones y 1 hora 18 minutos<br>
+                                                        ℗ 2016 Pelo Music S.A.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Footer del modal con los links a los servicios de streaming-->
+                                                <a class="btn btn-circle spotify"
+                                                    href="https://open.spotify.com/intl-ja/album/7hfkdtulZht6MCFAvvXEGl"
+                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                    target="_blank"><i class="bi bi-spotify"></i></a>
+                                                <a class="btn btn-circle applemusic"
+                                                    href="https://music.apple.com/ar/album/el-templo-del-pop-vol-2/1155201242"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en Apple Music" target="_blank"><i
+                                                        class="bi bi-apple"></i></a>
+                                                <a class="btn btn-circle youtubemusic"
+                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_mLf2f836vZwnHawc4867xbK87rpFWK0tY"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en YouTube Music" target="_blank"><i
+                                                        class="bi bi-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Hasta acá es un disco-->
+                            <!-- Acá empieza un disco -->
+                            <!-- recop 1 -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                    <img class="card-img-top" src="img/discografia/recopilatorio01-eltemplodelpop.jpeg"
+                                        alt="Tapa del album de El Templo del Pop" data-bs-toggle="modal"
+                                        data-bs-target="#recopilatorio1">
+
+                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                    <div class="card-body">
+                                        <p class="card-text text-center"><b>El Templo del Pop</b><br>01/04/2008</p>
+                                    </div>
+                                </div>
+
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="recopilatorio1" data-bs-backdrop="static" tabindex="-1"
+                                    aria-labelledby="recopilatorio2Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="recopilatorio2Label">El Templo del Pop
+                                                </h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                                <div class="col-md-5">
+                                                    <img class="img-fluid rounded m-md-1"
+                                                        src="img/discografia/recopilatorio01-eltemplodelpop.jpeg"
+                                                        alt="Tapa del album de El Templo del Pop">
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <p>Tipo: Álbum recopilatorio<br>
+                                                        Fecha de lanzamiento: 01/04/2008</p>
+                                                        <hr class="solid">
+                                                    <ol>
+                                                        <li>Perfecta</li>
+                                                        <li>Chicas</li>
+                                                        <li>Enamorada</li>
+                                                        <li>Don</li>
+                                                        <li>Yo te diré</li>
+                                                        <li>Traición</li>
+                                                        <li>Bailarina</li>
+                                                        <li>Prisionero</li>
+                                                        <li>Imán</li>
+                                                        <li>Hola</li>
+                                                        <li>El profe</li>
+                                                        <li>Romix</li>
+                                                        <li>Otra vez - En Vivo</li>
+                                                        <li>Mi Propia Vida</li>
+                                                        <li>Uno los dos</li>
+                                                        <li>Tu juego</li>
+                                                        <li>Vete de Aquí</li>
+                                                        <li>Navidad</li>
+                                                        <li>Quereme… Tengo Frío</li>
+                                                        <li>Miranda Mix (Oíd Mortales Mix)</li>
+                                                    </ol>
+                                                    <hr class="solid">
+                                                    <p class="gris">01/04/2008<br>
+                                                        20 canciones y 1 hora 17 minutos<br>
+                                                        ℗ 2008 Pelo Music S.A.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Footer del modal con los links a los servicios de streaming-->
+                                                <a class="btn btn-circle spotify" href="https://open.spotify.com/intl-ja/album/0KzE84u9io1eWxWSs9SmSY" role="button"
+                                                    data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                    target="_blank"><i class="bi bi-spotify"></i></a>
+                                                <a class="btn btn-circle applemusic" href="https://music.apple.com/ar/album/el-templo-del-pop/1043849374"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en Apple Music" target="_blank"><i
+                                                        class="bi bi-apple"></i></a>
+                                                <a class="btn btn-circle youtubemusic" href="https://music.youtube.com/playlist?list=OLAK5uy_k4zsJkS2jaPSMq2zrVgE6_QqBUc9Rm-Z0"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en YouTube Music" target="_blank"><i
+                                                        class="bi bi-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Hasta acá es un disco-->
+
+                        </div> <!-- Cierra el row -->
+                    </div>
+    </div>
+    </div>
+    </section>
+    </article>
+    </main>
+    <div>
+        <footer class="p-3">
+            <address>
+                <a class="btn btn-circle" href="https://www.instagram.com/mirandaenvivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en Instagram" target="_blank"><i
+                        class="bi bi-instagram"></i></a>
+                <a class="btn btn-circle" href="https://www.facebook.com/MirandaEnVivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en Facebook" target="_blank"><i
+                        class="bi bi-facebook"></i></a>
+                <a class="btn btn-circle" href="https://www.youtube.com/c/Mirandaenvivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en YouTube" target="_blank"><i class="bi bi-youtube"></i></a>
+                <a class="btn btn-circle" href="https://www.tiktok.com/@mirandaenvivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en TikTok" target="_blank"><i class="bi bi-tiktok"></i></a>
+                <a class="btn btn-circle" href="https://x.com/mirandaenvivo" role="button" data-bs-toggle="tooltip"
+                    title="Seguir en Twitter/X" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                <a class="btn btn-circle" href="https://open.spotify.com/intl-ja/artist/2eEmsgWmUFMbtU7agJpnjY"
+                    role="button" data-bs-toggle="tooltip" title="Seguir en Spotify" target="_blank"><i
+                        class="bi bi-spotify"></i></a>
+                <a class="btn btn-circle" href="https://music.apple.com/ar/artist/miranda/589298876" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en Apple Music" target="_blank"><i
+                        class="bi bi-apple"></i></a>
+            </address>
+            <p>© Miranda! | Agencia APA - Todos los derechos reservados<br>
+                ℗ 2024 Sony Music Entertainment Argentina S.A.</p>
+        </footer>
+    </div>
+    </div>
+    <!--linkeo script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
