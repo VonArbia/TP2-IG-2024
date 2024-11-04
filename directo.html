@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Discografía | Miranda!</title>
+    <!--link a google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">MIRANDA!</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="eventos.html">Eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="biografia.html">Biografía</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="discografia.html">Discografía</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="desarrolladores.html">Desarrolladores</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h1 class="text-center py-3">Discografía</h1>
+                <section class="menudiscosuno">
+                    <div class="dropdown-center">
+                        <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Álbumes de estudio
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="discografia.html">Sencillos</a>
+                            <a class="dropdown-item" href="estudio.html">Álbumes de estudio</a>
+                            <a class="dropdown-item" href="directo.html">Álbumes en directo</a>
+                            <a class="dropdown-item" href="recopilatorios.html">Álbumes recopilatorios</a>
+                            <a class="dropdown-item" href="ep.html">EPs</a>
+                            <a class="dropdown-item" href="video.html">Álbumes de video</a>
+                            <a class="dropdown-item" href="vinilo.html">Vinilos</a>
+                        </div>
+                    </div>
+                </section><br>
+                <section class="menudiscosdos">
+                    <ul class="nav nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link" href="discografia.html">Sencillos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page">Álbumes de estudio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="directo.html">Álbumes en directo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recopilatorios.html">Álbumes recopilatorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ep.html">EPs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Álbumes de video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vinilo.html">Vinilos</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="album py-5">
+                    <div class="container">
+                        <div class="row row-cols-sm-2 row-cols-md-5 g-3"> <!-- 2 columnas para celular y 5 para compu-->
+
+                            <!-- Acá empieza un disco -->
+                            <!-- vivo 6 -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                    <img class="card-img-top" src="img/discografia/vivo06-esmentiravivo.jpeg"
+                                        alt="Tapa del album de Es mentira Vivo" data-bs-toggle="modal"
+                                        data-bs-target="#vivo6">
+
+                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                    <div class="card-body">
+                                        <p class="card-text text-center"><b>Es Mentira Vivo</b><br>31/03/2027</p>
+                                    </div>
+                                </div>
+
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="vivo6" data-bs-backdrop="static" tabindex="-1"
+                                    aria-labelledby="vivo7Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="vivo7Label">Es Mentira Vivo</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                                <div class="col-md-5">
+                                                    <img class="img-fluid rounded m-md-1"
+                                                        src="img/discografia/vivo06-esmentiravivo.jpeg"
+                                                        alt="Tapa del album de Es Mentira Vivo">
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <p>Tipo: Álbum en directo<br>
+                                                        Fecha de lanzamiento: 31/03/2017
+                                                        <hr class="solid"></p>
+                                                    <ol>
+                                                        <li>Bailarina - En Vivo</li>
+                                                        <li>Horóscopo - En Vivo</li>
+                                                        <li>Romix - En Vivo</li>
+                                                        <li>Tu juego - En Vivo</li>
+                                                        <li>Agua - En Vivo</li>
+                                                        <li>Imán - En Vivo</li>
+                                                        <li>Mentira - En Vivo</li>
+                                                        <li>Tiempo - En Vivo</li>
+                                                        <li>Casualidad - En Vivo</li>
+                                                        <li>Bailarina - Remix</li>
+                                                        <li>Romix - Remix</li>
+                                                        <li>Tu juego - Remix</li>
+                                                    </ol>
+                                                    <hr class="solid">
+                                                    <p class="gris">31/03/2017<br>
+                                                        12 canciones y 55 minutos<br>
+                                                        ℗ 2017 Pelo Music S.A.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Footer del modal con los links a los servicios de streaming-->
+                                                <a class="btn btn-circle spotify"
+                                                    href="https://open.spotify.com/intl-ja/album/7pjXYXvSBrsiggeIjPNwKG"
+                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                    target="_blank"><i class="bi bi-spotify"></i></a>
+                                                <a class="btn btn-circle applemusic"
+                                                    href="https://music.apple.com/ar/album/es-mentira-vivo/1209140464"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en Apple Music" target="_blank"><i
+                                                        class="bi bi-apple"></i></a>
+                                                <a class="btn btn-circle youtubemusic"
+                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_ngbrV0o4niZtxpjOfe-5Cj6LdqZU3_Vlg"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en YouTube Music" target="_blank"><i
+                                                        class="bi bi-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Hasta acá es un disco-->
+                            <!-- Acá empieza un disco -->
+                            <!-- vivo 5 -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                    <img class="card-img-top" src="img/discografia/vivo02-eldiscodetucorazonvivo.jpeg"
+                                        alt="Tapa del album de El disco de tu Corazoón - Vivo" data-bs-toggle="modal"
+                                        data-bs-target="#vivo5">
+
+                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                    <div class="card-body">
+                                        <p class="card-text text-center"><b>El disco de tu corazón -
+                                                Vivo</b><br>25/11/2016</p>
+                                    </div>
+                                </div>
+
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="vivo5" data-bs-backdrop="static" tabindex="-1"
+                                    aria-labelledby="vivo6Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="vivo6Label">El Disco de tu corazón -
+                                                    Vivo</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                                <div class="col-md-5">
+                                                    <img class="img-fluid rounded m-md-1"
+                                                        src="img/discografia/vivo02-eldiscodetucorazonvivo.jpeg"
+                                                        alt="Tapa del album El disco de tu corazón - Vivo">
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <p>Tipo: Álbum en directo<br>
+                                                        Fecha de lanzamiento: 25/11/2016
+                                                        <hr class="solid"></p>
+                                                    <ol>
+                                                        <li>Prisionero - En Vivo</li>
+                                                        <li>Hola - En Vivo</li>
+                                                        <li>Perfecta - En Vivo</li>
+                                                        <li>Enamorada - En Vivo</li>
+                                                        <li>Nada Es Igual - En Vivo</li>
+                                                        <li>Dejame - En Vivo</li>
+                                                        <li>Amanece Junto a Mi - En Vivo</li>
+                                                        <li>Hasta Hoy - En Vivo</li>
+                                                        <li>Vete de Aquí - En Vivo</li>
+                                                        <li>No Me Celes - En Vivo</li>
+                                                        <li>Te Atreviste y Me Morí - En Vivo</li>
+                                                        <li>Voces - En Vivo</li>
+                                                        <li>Perfecta - Sonidero Nacional Remix</li>
+                                                        <li>Prisionero - Gaby Lucena Trance Remix</li>
+                                                    </ol>
+                                                    <hr class="solid">
+                                                    <p class="gris">25/11/2016<br>
+                                                        14 canciones y 48 minutos<br>
+                                                        ℗ 2016 Pelo Music S.A.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Footer del modal con los links a los servicios de streaming-->
+                                                <a class="btn btn-circle spotify"
+                                                    href="https://open.spotify.com/intl-ja/album/5h8JoOmDBcDMugku0NfNJI"
+                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                    target="_blank"><i class="bi bi-spotify"></i></a>
+                                                <a class="btn btn-circle applemusic"
+                                                    href="https://music.apple.com/ar/album/el-disco-de-tu-coraz%C3%B3n-en-vivo/1168854022"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en Apple Music" target="_blank"><i
+                                                        class="bi bi-apple"></i></a>
+                                                <a class="btn btn-circle youtubemusic"
+                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_lBr0RpRbeO-4yhMcUdeerO2YJwLeYBr1M"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en YouTube Music" target="_blank"><i
+                                                        class="bi bi-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Hasta acá es un disco-->
+                            <!-- Acá empieza un disco -->
+                            <!-- vivo 04 -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                    <img class="card-img-top" src="img/discografia/vivo05-vivo.jpeg"
+                                        alt="Tapa del album de Miranda! Vivo" data-bs-toggle="modal"
+                                        data-bs-target="#vivo4">
+
+                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                    <div class="card-body">
+                                        <p class="card-text text-center"><b>Miranda! Vivo</b><br>11/12/2015</p>
+                                    </div>
+                                </div>
+
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="vivo4" data-bs-backdrop="static" tabindex="-1"
+                                    aria-labelledby="vivo5Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="vivo5Label">Miranda! Vivo</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                                <div class="col-md-5">
+                                                    <img class="img-fluid rounded m-md-1"
+                                                        src="img/discografia/vivo05-vivo.jpeg"
+                                                        alt="Tapa del album Miranda! Vivo">
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <p>Tipo: Álbum en directo<br>
+                                                        Fecha de lanzamiento: 11/12/2015
+                                                        <hr class="solid">
+                                                        Disco 1
+                                                    <ol>
+                                                        <li>Nadie Como Tu - En Vivo</li>
+                                                        <li>Miro la Vida Pasar - En Vivo</li>
+                                                        <li>Se Mia - En Vivo</li>
+                                                        <li>Para Olvidar Tu Amor - En Vivo</li>
+                                                        <li>Chicas - En Vivo</li>
+                                                        <li>Hola - En Vivo</li>
+                                                        <li>Perfecta - En Vivo</li>
+                                                        <li>Es por Él - En Vivo</li>
+                                                        <li>Extraño- En Vivo</li>
+                                                        <li>Solo Lo Sabe la Luna - En Vivo</li>
+                                                        <li>Tu Misterioso Alguien - En Vivo</li>
+                                                        <li>Amor Amarillo - En Vivo</li>
+                                                    </ol>
+                                                    Disco 2
+                                                    <ol>
+                                                        <li>Prisionero - En Vivo</li>
+                                                        <li>Otra Vez - En Vivo</li>
+                                                        <li>Yo Te Diré - En Vivo</li>
+                                                        <li>Traición - En Vivo</li>
+                                                        <li>Ritmo y Decepción - En Vivo</li>
+                                                        <li>Love It - En Vivo</li>
+                                                        <li>Enamorada - En Vivo</li>
+                                                        <li>Lo que Siento por Ti- En Vivo</li>
+                                                        <li>Buen Día- En Vivo</li>
+                                                        <li>El Profe - En Vivo</li>
+                                                        <li>Don - En Vivo</li>
+                                                        <li>Mentía - En Vivo</li>
+                                                        <li>Ya Lo Sabía - En Vivo</li>
+                                                        <li>Romix - En Vivo</li>
+                                                        <li>Fantasmas - En Vivo</li>
+                                                    </ol>
+                                                    </p>
+                                                    <hr class="solid">
+                                                    <p class="gris">11/12/2015<br>
+                                                        27 canciones y 1 hora 35 minutos
+                                                        <br>
+                                                        ℗ 2015 Pelo Music S.A.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Footer del modal con los links a los servicios de streaming-->
+                                                <a class="btn btn-circle spotify"
+                                                    href="https://open.spotify.com/intl-ja/album/3s4JE7BVGPRlToGeSHlDvt"
+                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                    target="_blank"><i class="bi bi-spotify"></i></a>
+                                                <a class="btn btn-circle applemusic"
+                                                    href="https://music.apple.com/ar/album/miranda-vivo/1067378888"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en Apple Music" target="_blank"><i
+                                                        class="bi bi-apple"></i></a>
+                                                <a class="btn btn-circle youtubemusic"
+                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_kpRIlmPI8WirFRjATaNkg46_vZqCjDGCE"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en YouTube Music" target="_blank"><i
+                                                        class="bi bi-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Hasta acá es un disco-->
+                            <!-- Acá empieza un disco -->
+                            <!-- vivo 03 -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                    <img class="card-img-top" src="img/discografia/vivo04-lunamagistral.jpeg"
+                                        alt="Tapa del album Luna magistral" data-bs-toggle="modal"
+                                        data-bs-target="#vivo3">
+
+                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                    <div class="card-body">
+                                        <p class="card-text text-center"><b>Luna Magistral</b><br>27/04/2012</p>
+                                    </div>
+                                </div>
+
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="vivo3" data-bs-backdrop="static" tabindex="-1"
+                                    aria-labelledby="vivo4Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="vivo4Label">Luna magistral</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                                <div class="col-md-5">
+                                                    <img class="img-fluid rounded m-md-1"
+                                                        src="img/discografia/vivo04-lunamagistral.jpeg"
+                                                        alt="Tapa del album de Luna magistral">
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <p>Tipo: Álbum en directo<br>
+                                                        Fecha de lanzamiento: 27/04/2012
+                                                        <hr class="solid">
+                                                        Disco 1
+                                                    <ol>
+                                                        <li>Don - En Vivo</li>
+                                                        <li>Ya Lo Sabía - En Vivo</li>
+                                                        <li>Cada Vez Que Decimos Adiós - En Vivo</li>
+                                                        <li>A la Distancia - En Vivo</li>
+                                                        <li>Una Lágrima Sobre el Teléfono - En Vivo</li>
+                                                        <li>Tu Juego - En Vivo <span>(feat. Santiago Moreno
+                                                                Charpentier)</span></li>
+                                                        <li>Romix - En Vivo</li>
+                                                        <li>10 Años Después - En Vivo</li>
+                                                        <li>Yo Te Diré - En Vivo</li>
+                                                        <li>Traición - En Vivo</li>
+                                                        <li>No Pero No - En Vivo</li>
+                                                        <li>Puro Talento - En Vivo</li>
+                                                        <li>Radios - En Vivo <span>(feat. Emmanuel Horvilleur
+                                                                )</span></li>
+                                                        <li>Tucán - En Vivo <span>(feat. Emmanuel Horvilleur
+                                                                )</span></li>
+                                                    </ol>
+                                                    Disco 2
+                                                    <ol>
+                                                        <li>Imán - En Vivo</li>
+                                                        <li>Tu Misterioso Alguien - En Vivo</li>
+                                                        <li>Amanece Junto a Mi - En Vivo</li>
+                                                        <li>Perfecta - En Vivo</li>
+                                                        <li>Prisionero - En Vivo</li>
+                                                        <li>Ritmo y Decepción - En Vivo</li>
+                                                        <li>Hello - En Vivo</li>
+                                                        <li>Enamorada - En Vivo</li>
+                                                        <li>El Profe - En Vivo</li>
+                                                        <li>Una Noche Como Hoy- En Vivo</li>
+                                                        <li>Dice Lo Que Siente - En Vivo</li>
+                                                        <li>Lo que Siento por Ti- En Vivo</li>
+                                                        <li>Mentía - En Vivo</li>
+                                                        <li>Tiempo - En Vivo</li>
+                                                    </ol>
+                                                    </p>
+                                                    <hr class="solid">
+                                                    <p class="gris">27/04/2012<br>
+                                                        28 canciones y 1 hora 47 minutos<br>
+                                                        ℗ 2012 Pelo Music S.A.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Footer del modal con los links a los servicios de streaming-->
+                                                <a class="btn btn-circle spotify"
+                                                    href="https://open.spotify.com/intl-ja/album/5eFSHOSJAwkvOZK3h40lUq"
+                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                    target="_blank"><i class="bi bi-spotify"></i></a>
+                                                <a class="btn btn-circle applemusic"
+                                                    href="https://music.apple.com/ar/album/luna-magistral/1043851216"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en Apple Music" target="_blank"><i
+                                                        class="bi bi-apple"></i></a>
+                                                <a class="btn btn-circle youtubemusic"
+                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_mTh7sbDZrSg3Vsp8B3gA_ta-dkKkhsMS0"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en YouTube Music" target="_blank"><i
+                                                        class="bi bi-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Hasta acá es un disco-->
+                            <!-- Acá empieza un disco -->
+                            <!-- vivo 02 -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                    <img class="card-img-top" src="img/discografia/vivo03-directo.jpeg"
+                                        alt="Tapa del album de Miranda Directo!" data-bs-toggle="modal"
+                                        data-bs-target="#vivo2">
+
+                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                    <div class="card-body">
+                                        <p class="card-text text-center"><b>Miranda Directo!</b><br>10/11/2009</p>
+                                    </div>
+                                </div>
+
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="vivo2" data-bs-backdrop="static" tabindex="-1"
+                                    aria-labelledby="vivo3Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="vivo3Label">Miranda Directo!</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                                <div class="col-md-5">
+                                                    <img class="img-fluid rounded m-md-1"
+                                                        src="img/discografia/vivo03-directo.jpeg"
+                                                        alt="Tapa del album de Miranda Directo!">
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <p>Tipo: Álbum en directo<br>
+                                                        Fecha de lanzamiento: 10/11/2009
+                                                        <hr class="solid"></p>
+                                                    <ol>
+                                                        <li>Prisionero - En Vivo</li>
+                                                        <li>Entre Mis Brazos - En Vivo</li>
+                                                        <li>Tu Mirada - En Vivo</li>
+                                                        <li>Hola - En Vivo</li>
+                                                        <li>Hola Probando - En Vivo</li>
+                                                        <li>Romance Juvenil - En Vivo</li>
+                                                        <li>El Showcito - En Vivo</li>
+                                                        <li>Perfecta - En Vivo</li>
+                                                        <li>Tu Misterioso Alguien - En Vivo</li>
+                                                        <li>Lo que Siento por Ti- En Vivo</li>
+                                                        <li>Yo Te Diré - En Vivo</li>
+                                                        <li>Enamorada - En Vivo</li>
+                                                        <li>El Profe - En Vivo</li>
+                                                        <li>Mentía - En Vivo</li>
+                                                        <li>Don - En Vivo</li>
+                                                        <li>No Lo Digas - En Vivo</li>
+                                                        <li>Imán - En Vivo</li>
+
+                                                    </ol>
+                                                    <hr class="solid">
+                                                    <p class="gris">10/11/2009<br>
+                                                        17 canciones y 1 hora 3 minutos[[Duración]]<br>
+                                                        ℗ 2009 Pelo Music S.A.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Footer del modal con los links a los servicios de streaming-->
+                                                <a class="btn btn-circle spotify"
+                                                    href="https://open.spotify.com/intl-ja/album/1suQaaQtIUflWRknH5CnLt"
+                                                    role="button" data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                    target="_blank"><i class="bi bi-spotify"></i></a>
+                                                <a class="btn btn-circle applemusic"
+                                                    href="https://music.apple.com/ar/album/miranda-directo/1043270879"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en Apple Music" target="_blank"><i
+                                                        class="bi bi-apple"></i></a>
+                                                <a class="btn btn-circle youtubemusic"
+                                                    href="https://music.youtube.com/playlist?list=OLAK5uy_klbipdDYz7wsLlv8CQWvG05XIZY7VMHNo"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en YouTube Music" target="_blank"><i
+                                                        class="bi bi-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Hasta acá es un disco-->
+                            <!-- Acá empieza un disco -->
+                            <!-- vivo 1 -->
+                            <div class="col">
+                                <div class="card mb-3 box-shadow">
+                                    <!-- Tapa del disco que al ser clickeado, salta el modal-->
+                                    <img class="card-img-top" src="img/discografia/estudio02-sinrestricciones.jpeg"
+                                        alt="Tapa del album de En vivo sin Restricciones" data-bs-toggle="modal"
+                                        data-bs-target="#vivo1">
+
+                                    <!-- Tarjeta debajo de la tapa del disco con info del título y la fecha de lanzamiento-->
+                                    <div class="card-body">
+                                        <p class="card-text text-center"><b>En Vivo Sin Restricciones</b><br>21/05/2005
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Modal con info sobre el disco-->
+                                <div class="modal fade" id="vivo1" data-bs-backdrop="static" tabindex="-1"
+                                    aria-labelledby="vivo2Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="vivo2Label">En Vivo Sin Restricciones
+                                                </h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body row row-cols-sm-1 row-cols-sm-2">
+                                                <!-- Muestra el contenido en 1 columna en celular y 2 en desktop-->
+                                                <div class="col-md-5">
+                                                    <img class="img-fluid rounded m-md-1"
+                                                        src="img/discografia/estudio02-sinrestricciones.jpeg"
+                                                        alt="Tapa del album de En Vivo Sin Restricciones">
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <p>Tipo: Álbum en directo<br>
+                                                        Fecha de lanzamiento: 21/05/2005
+                                                        <hr class="solid"></p>
+                                                    <ol>
+                                                        <li>Otra vez - En Vivo </li>
+                                                        <li>Tu gurú - En Vivo </li>
+                                                        <li>Yo te diré - En Vivo </li>
+                                                        <li>Hoy - En Vivo </li>
+                                                        <li>Bailarina - En Vivo </li>
+                                                        <li>Mentira - En Vivo </li>
+                                                        <li>Traición - En Vivo </li>
+                                                        <li>Navidad - En Vivo </li>
+                                                        <li>Quiero - En Vivo </li>
+                                                        <li>El profe - En Vivo </li>
+                                                        <li>Tu Juego - En Vivo</li>
+                                                        <li>Don - En Vivo </li>
+                                                        <li>Romix - En Vivo</li>
+                                                        <li>Casualidad - En Vivo</li>
+                                                    </ol>
+                                                    <hr class="solid">
+                                                    <p class="gris">21/05/2005<br>
+                                                        14 canciones y 53 minutos<br>
+                                                        ℗ 2005 Pelo Music S.A.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Footer del modal con los links a los servicios de streaming-->
+                                                <a class="btn btn-circle spotify" href="https://open.spotify.com/intl-ja/album/1suQaaQtIUflWRknH5CnLt" role="button"
+                                                    data-bs-toggle="tooltip" title="Escuchar en Spotify"
+                                                    target="_blank"><i class="bi bi-spotify"></i></a>
+                                                <a class="btn btn-circle applemusic" href="https://music.apple.com/ar/album/miranda-directo/1043270879"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en Apple Music" target="_blank"><i
+                                                        class="bi bi-apple"></i></a>
+                                                <a class="btn btn-circle youtubemusic" href="https://music.youtube.com/playlist?list=OLAK5uy_klbipdDYz7wsLlv8CQWvG05XIZY7VMHNo"
+                                                    role="button" data-bs-toggle="tooltip"
+                                                    title="Escuchar en YouTube Music" target="_blank"><i
+                                                        class="bi bi-youtube"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Hasta acá es un disco-->
+
+
+
+                        </div> <!-- Cierra el row -->
+                    </div>
+    </div>
+    </div>
+    </section>
+    </article>
+    </main>
+    <div>
+        <footer class="p-3">
+            <address>
+                <a class="btn btn-circle" href="https://www.instagram.com/mirandaenvivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en Instagram" target="_blank"><i
+                        class="bi bi-instagram"></i></a>
+                <a class="btn btn-circle" href="https://www.facebook.com/MirandaEnVivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en Facebook" target="_blank"><i
+                        class="bi bi-facebook"></i></a>
+                <a class="btn btn-circle" href="https://www.youtube.com/c/Mirandaenvivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en YouTube" target="_blank"><i class="bi bi-youtube"></i></a>
+                <a class="btn btn-circle" href="https://www.tiktok.com/@mirandaenvivo" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en TikTok" target="_blank"><i class="bi bi-tiktok"></i></a>
+                <a class="btn btn-circle" href="https://x.com/mirandaenvivo" role="button" data-bs-toggle="tooltip"
+                    title="Seguir en Twitter/X" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                <a class="btn btn-circle" href="https://open.spotify.com/intl-ja/artist/2eEmsgWmUFMbtU7agJpnjY"
+                    role="button" data-bs-toggle="tooltip" title="Seguir en Spotify" target="_blank"><i
+                        class="bi bi-spotify"></i></a>
+                <a class="btn btn-circle" href="https://music.apple.com/ar/artist/miranda/589298876" role="button"
+                    data-bs-toggle="tooltip" title="Seguir en Apple Music" target="_blank"><i
+                        class="bi bi-apple"></i></a>
+            </address>
+            <p>© Miranda! | Agencia APA - Todos los derechos reservados<br>
+                ℗ 2024 Sony Music Entertainment Argentina S.A.</p>
+        </footer>
+    </div>
+    </div>
+    <!--linkeo script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
