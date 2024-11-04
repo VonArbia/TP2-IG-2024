@@ -75,16 +75,17 @@ footer {
     font-weight: 700;
 }
 
-section {
+section, article {
     text-align: center;
 }
 
+
 section img {
-    width: 85%;
+    width: 90%;
 }
 
-section p,
-section ul {
+section p, article p,
+section ul,article ul {
     text-align: justify;
 }
 
@@ -320,10 +321,14 @@ iframe {
     }
 
     section img {
-        width: 45%;
+        width: 60%;
     }
-
-    article img {
+    .perfil{
+        width:100%;
+        
+    }
+    .perfil img{
         width: 30%;
     }
+    
 }
