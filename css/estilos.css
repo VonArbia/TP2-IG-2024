@@ -18,8 +18,61 @@ body {
     margin-top: 0;
 }
 
-calecita{
-width: 80%;
+
+/* Estilos del formulario */
+.formulario {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #400000;
+    /* Fondo del formulario */
+    border-radius: 8px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+/* Estilos de etiquetas y entradas */
+.etiqueta {
+    font-weight: bold;
+    color: #ba7e36 ;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.entrada,
+.entrada-texto {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ba7e36;
+    /* Borde dorado */
+    border-radius: 5px;
+    background-color: #FFF5E1;
+    /* Fondo claro para campos de texto */
+    color: #400000;
+}
+
+.entrada-texto {
+    resize: none;
+}
+
+/* Estilos del botón de enviar */
+.boton-enviar {
+    width: 100%;
+    padding: 10px;
+    background-color: #ba7e36;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-enviar:hover {
+    background-color: #ba7e36;
+    color: #ffffff;
 }
 
 .navbar, footer {
