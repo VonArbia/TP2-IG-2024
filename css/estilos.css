@@ -72,13 +72,16 @@ body {
     padding: 1em;
 }
 
-article{
-    text-align: justify;
-}
-
 .news-list,.notis,.tarjeta-index{
     background-color: #ba7e36;
     color: #000000
+}
+
+.notis{
+text-align: center;
+}
+.notis p{
+    text-align: justify;
 }
 
 main {
