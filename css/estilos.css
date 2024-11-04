@@ -7,7 +7,23 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-}
+    font-family: Arial;
+    font-size: 18px;
+
+  }
+  
+  h1{
+    font-size: 3em;
+    font-family: Fraunces;
+    font-weight: 650;
+  }
+  h2{
+    font-size: 2em;
+  }
+  h3,h4,h5,h6{
+    font-size: 1em;
+  }
+
 
 #contenido {
     width: 100%;
@@ -42,6 +58,11 @@ body {
 
 .navbar, footer {
     background-color: rgb(0, 0, 0) !important;
+}
+.navbar,.navbar-brand{
+    font-family: Fraunces;
+    font-size: 22px;
+    font-weight: 650;
 }
 
 .tarjeta-index {
