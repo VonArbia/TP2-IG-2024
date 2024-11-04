@@ -181,6 +181,10 @@ select option {
     overflow: hidden;
 }
 
+.carousel p {
+    text-align: center;
+}
+
 .recital iframe {
     display: block;
     width: 600px;
