@@ -20,10 +20,23 @@ footer {
 
 .tarjeta-index {
     width: 75%;
-    justify-content: center;
+    margin: 0 auto;
     text-align: center;
+    padding: 1em;
+   
+}
+.news-list,.notis,.tarjeta-index{
+    background-color: #ba7e36;
+    color: #000000
 }
 
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    gap: 1em; 
+    flex-wrap: wrap; 
+}
 main {
     margin: 1em;
 }
@@ -40,15 +53,12 @@ footer {
 
 main {
     padding-top: 70px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 section, article{
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 section img, article img {
