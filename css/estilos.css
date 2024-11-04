@@ -18,6 +18,7 @@ body {
     font-weight: 650;
   }
   h2{
+    font-family: Fraunces;
     font-size: 2em;
   }
   h3,h4,h5,h6{
@@ -222,6 +223,11 @@ select option {
 
 .nav-underline .nav-item .active {
     font-weight: 800;
+}
+
+/* Estilo de cada tarjeta */
+.cardcd p {
+    font-size: 0.8em;
 }
 
 /* Efecto hover sobre las cartas */
