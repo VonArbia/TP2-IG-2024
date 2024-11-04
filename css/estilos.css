@@ -13,117 +13,23 @@ body {
     background-color: #400000;
 }
 
-.color-links:link{
-    color: #8e0107;
-}
-.color-links:visited{ 
-    color: red;
-}
-.color-links:hover{
-    color: #8b1d33;
-}
-.color-links:active{
-    color: red;
-}
-
 .banner {
     margin: -2em;
     margin-top: 0;
 }
 
-.navbar,
-footer {
+calecita{
+width: 80%;
+}
+
+.navbar, footer {
     background-color: rgb(0, 0, 0) !important;
 }
 
 .tarjeta-index {
     width: 75%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 1em;
-
-}
-
-.news-list,
-.notis,
-.tarjeta-index {
-    background-color: #ba7e36;
-    color: #000000
-}
-
-.titulo {
-    text-align: center;
-    color: #dd9c4c;
-    /* Color dorado */
-}
-
-.subtitulo {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #ba7e36
-}
-
-/* Estilos del formulario */
-.formulario {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #400000;
-    /* Fondo del formulario */
-    border-radius: 8px;
-}
-
-.campo {
-    margin-bottom: 15px;
-}
-
-/* Estilos de etiquetas y entradas */
-.etiqueta {
-    font-weight: bold;
-    color: #ba7e36 ;
-    display: block;
-    margin-bottom: 5px;
-}
-
-.entrada,
-.entrada-texto {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ba7e36;
-    /* Borde dorado */
-    border-radius: 5px;
-    background-color: #FFF5E1;
-    /* Fondo claro para campos de texto */
-    color: #400000;
-}
-
-.entrada-texto {
-    resize: none;
-}
-
-/* Estilos del botón de enviar */
-.boton-enviar {
-    width: 100%;
-    padding: 10px;
-    background-color: #ba7e36;
-    color: #000000;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.boton-enviar:hover {
-    background-color: #ba7e36;
-    color: #ffffff;
-}
-
-.centrado {
-    display: flex;
     justify-content: center;
-    gap: 1em;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
 main {
@@ -142,24 +48,14 @@ footer {
 
 main {
     padding-top: 70px;
-
 }
 
-section,
-article {
+section {
     text-align: center;
-
 }
 
-section img,
-article img {
+section img {
     width: 85%
-}
-
-article p,
-article ul {
-    text-align: justify;
-
 }
 
 section p,
@@ -170,20 +66,40 @@ section ul {
 footer {
     color: #FFFFFF;
     text-align: center;
-    background-color: black;
 }
 
 footer p {
     font-size: small;
 }
 
+.btn-dark {
+    background-color: #000000;
+}
+
+.btn-dark:hover {
+    background-color: #e4a04d;
+    color: #8e0107;
+}
+
 /* Página de eventos y recitales */
 select option {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
-    border: gray;
+    border: #000000;
     border-radius: 15px;
+}
+
+.card {
+    background-color: #e4a04d;
+}
+
+.card h5, .card h6 {
+    text-align: left;
+}
+
+.card .btn-dark:hover {
+    background-color: #8e0107;
 }
 
 .recital .carousel {
@@ -196,19 +112,15 @@ select option {
     overflow: hidden;
 }
 
-.recital iframe {
-    /*para el video incrustado*/
-    display: block;
-    /*lo convierte en bloque para poder centrarlo*/
+.recital iframe { /*para el video incrustado*/
+	display: block; /*lo convierte en bloque para poder centrarlo*/
     width: 600px;
-    max-width: 90%;
-    /*ancho máximo para que no sobresalga de su contenedor cuando se lo ve en una pantalla angosta*/
+    max-width: 90%; /*ancho máximo para que no sobresalga de su contenedor cuando se lo ve en una pantalla angosta*/
     aspect-ratio: 16 / 9;
-    margin: 0px auto;
+	margin: 0px auto;
     /* box-shadow: 0px 0px 10px #000000; */
-    border-radius: 10px;
-    border: none;
-    /*para quitar el atributo frameborder de la etiqueta iframe que tiraba error en el validador*/
+	border-radius: 10px;
+	border: none; /*para quitar el atributo frameborder de la etiqueta iframe que tiraba error en el validador*/
 }
 
 /* Página de discografía */
@@ -222,6 +134,25 @@ select option {
     display: none;
 }
 
+/* Estilos para los distintos menúes */
+.dropdown-menu {
+    background-color: #000000;
+}
+
+.dropdown-item {
+    color: #FFFFFF;
+}
+
+.nav-underline .nav-item {
+    font-size: large;
+    font-weight: 500;
+    padding: 0 2px;
+}
+
+.nav-underline .nav-item .active {
+    font-weight: 800;
+}
+
 /* Efecto hover sobre las cartas */
 .album .card {
     transition: 0.3s;
@@ -232,7 +163,28 @@ select option {
 }
 
 /* Estilos dentro del modal */
+.modal-content {
+    background-color: #000000;
+}
+
+.modal-header .btn-close{
+    background-color: #FFFFFF;
+}
+
+.modal-header, .modal-footer {
+    border-color: #333333;
+}
+
+.modal-body {
+    color: #FFFFFF;
+}
+
+.modal-body ol li {
+    text-align: left;
+}
+
 .col-md-5 img {
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -269,7 +221,7 @@ iframe {
 }
 
 .gris {
-    color: rgb(0, 0, 0);
+    color: gray;
     font-size: small;
 }
 
