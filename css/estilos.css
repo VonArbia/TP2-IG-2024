@@ -181,7 +181,7 @@ select option {
     overflow: hidden;
 }
 
-.carousel p {
+.carousel-caption p {
     text-align: center;
 }
 
