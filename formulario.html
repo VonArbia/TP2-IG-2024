@@ -54,21 +54,23 @@
         <main>
             <article>
                 <section>
-                    <h3>¡Contactate con nosotros!</h3>
-                    <form action="#" method="get">
-                        <fieldset>
-                            <legend>Datos</legend>
-                            <label for="nombre">Nombre*:</label>
-                            <input type="text" name="nombre" placeholder="Ej: Jacinto Ríos" required>
-                            <br><br>
-                            <label for="email">Dirección de correo electrónico*:</label>
-                            <input type="email" name="email" placeholder="Ej: jacintorios@mail.com" required>
-                            <br><br>
-                            <label for="mensaje">Mensaje*:</label><br>
-                            <textarea name="mensaje" rows="7" cols="50" placeholder="Escriba su mensaje aquí..."></textarea>
-                            <br><br>
-                            <button type="submit">Enviar</button>
-                            <br><br>
+                    <h3 class="titulo">¡Contáctate con nosotros!</h3>
+                    <form action="#" method="get" class="formulario">
+                        <fieldset class="campo">
+                            <legend class="subtitulo">Datos</legend>
+                            <div class="campo">
+                                <label for="nombre" class="etiqueta">Nombre*:</label>
+                                <input type="text" name="nombre" placeholder="Ej: Jacinto Ríos" required class="entrada">
+                            </div>
+                            <div class="campo">
+                                <label for="email" class="etiqueta">Dirección de correo electrónico*:</label>
+                                <input type="email" name="email" placeholder="Ej: jacintorios@mail.com" required class="entrada">
+                            </div>
+                            <div class="campo">
+                                <label for="mensaje" class="etiqueta">Mensaje*:</label>
+                                <textarea name="mensaje" rows="5" placeholder="Escriba su mensaje aquí..." class="entrada-texto"></textarea>
+                            </div>
+                            <button type="submit" class="boton-enviar">Enviar</button>
                         </fieldset>
                     </form>
                     <!--mini carrousel de fotos-->
