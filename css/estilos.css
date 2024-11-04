@@ -4,13 +4,22 @@ body {
     color: #e4a04d
 }
 
+.color-links:link{
+    color: #8e0107;
+}
+.color-links:visited{ 
+    color: red;
+}
+.color-links:hover{
+    color: #8b1d33;
+}
+.color-links:active{
+    color: red;
+}
+
 .banner {
     margin: -2em;
     margin-top: 0;
-}
-
-calecita {
-    width: 80%;
 }
 
 .navbar,
