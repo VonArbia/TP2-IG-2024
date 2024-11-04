@@ -3,76 +3,41 @@ body {
     background-color: #8e0107;
     color: #e4a04d;
     display: flex;
-	justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
-#contenido { /*elemento de bloque que define el ancho máximo*/
-	width: 100%; /*normalmente se muestra en toda la pantalla*/
-	max-width: 960px; /*pero si el navegador es mayor a 960px (como en las computadoras) no crece más de 960px*/
+
+#contenido {
+    width: 100%;
+    max-width: 960px;
     background-color: #400000;
+    margin: auto; /* Centra el contenido horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido en el eje horizontal dentro de #contenido */
+    justify-content: center; /* Centra el contenido en el eje vertical */
+    padding: 1em;
+    flex: 1; /* Permite que #contenido ocupe el espacio disponible */
+}
+
+.color-links:link{
+    color: #8e0107;
+}
+.color-links:visited{ 
+    color: rgb(100, 31, 77);
+}
+.color-links:hover{
+    color: #8b1d33;
+}
+.color-links:active{
+    color: red;
 }
 
 .banner {
     margin: -2em;
     margin-top: 0;
-}
-
-
-/* Estilos del formulario */
-.formulario {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #400000;
-    /* Fondo del formulario */
-    border-radius: 8px;
-}
-
-.campo {
-    margin-bottom: 15px;
-}
-
-/* Estilos de etiquetas y entradas */
-.etiqueta {
-    font-weight: bold;
-    color: #ba7e36 ;
-    display: block;
-    margin-bottom: 5px;
-}
-
-.entrada,
-.entrada-texto {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ba7e36;
-    /* Borde dorado */
-    border-radius: 5px;
-    background-color: #FFF5E1;
-    /* Fondo claro para campos de texto */
-    color: #400000;
-}
-
-.entrada-texto {
-    resize: none;
-}
-
-/* Estilos del botón de enviar */
-.boton-enviar {
-    width: 100%;
-    padding: 10px;
-    background-color: #ba7e36;
-    color: #000000;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.boton-enviar:hover {
-    background-color: #ba7e36;
-    color: #ffffff;
 }
 
 .navbar, footer {
@@ -81,26 +46,33 @@ body {
 
 .tarjeta-index {
     width: 75%;
-    justify-content: center;
+    margin: 0 auto;
     text-align: center;
+    padding: 1em;
+}
+
+article{
+    text-align: justify;
+}
+
+.news-list,.notis,.tarjeta-index{
+    background-color: #ba7e36;
+    color: #000000
 }
 
 main {
     margin: 1em;
+    padding-top: 70px;
 }
 
 .navbar-brand,
 .nav-link,
 footer {
-    color: #ba7e36 !important
+    color: #ba7e36 !important;
 }
 
 .navbar-brand {
     font-weight: 700;
-}
-
-main {
-    padding-top: 70px;
 }
 
 section {
@@ -108,7 +80,7 @@ section {
 }
 
 section img {
-    width: 85%
+    width: 85%;
 }
 
 section p,
@@ -119,6 +91,10 @@ section ul {
 footer {
     color: #FFFFFF;
     text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
 }
 
 footer p {
@@ -165,19 +141,17 @@ select option {
     overflow: hidden;
 }
 
-.recital iframe { /*para el video incrustado*/
-	display: block; /*lo convierte en bloque para poder centrarlo*/
+.recital iframe {
+    display: block;
     width: 600px;
-    max-width: 90%; /*ancho máximo para que no sobresalga de su contenedor cuando se lo ve en una pantalla angosta*/
+    max-width: 90%;
     aspect-ratio: 16 / 9;
-	margin: 0px auto;
-    /* box-shadow: 0px 0px 10px #000000; */
-	border-radius: 10px;
-	border: none; /*para quitar el atributo frameborder de la etiqueta iframe que tiraba error en el validador*/
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
 }
 
 /* Página de discografía */
-/* Muestra el menú dropdown en mobile y oculta el menú de pestañas */
 .menudiscosuno {
     display: flex;
     justify-content: center;
@@ -220,7 +194,7 @@ select option {
     background-color: #000000;
 }
 
-.modal-header .btn-close{
+.modal-header .btn-close {
     background-color: #FFFFFF;
 }
 
@@ -245,8 +219,6 @@ select option {
     justify-content: center;
 }
 
-
-
 iframe {
     width: 90%;
 }
@@ -255,7 +227,7 @@ iframe {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    padding: 4px 0px;
+    padding: 4px 0;
     text-align: center;
     font-size: 20px;
     color: #FFFFFF;
@@ -278,15 +250,62 @@ iframe {
     font-size: small;
 }
 
-/* Media query para dispositivos desktop */
-@media (min-width : 480px) {
+/* Estilos del formulario */
+.formulario {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #400000;
+    border-radius: 8px;
+}
 
-    /* Estilos generales */
+.campo {
+    margin-bottom: 15px;
+}
+
+.etiqueta {
+    font-weight: bold;
+    color: #ba7e36;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.entrada,
+.entrada-texto {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ba7e36;
+    border-radius: 5px;
+    background-color: #FFF5E1;
+    color: #400000;
+}
+
+.entrada-texto {
+    resize: none;
+}
+
+.boton-enviar {
+    width: 100%;
+    padding: 10px;
+    background-color: #ba7e36;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-enviar:hover {
+    color: #ffffff;
+}
+
+/* Media query para dispositivos desktop */
+@media (min-width: 480px) {
     footer p {
         font-size: medium;
     }
 
-    /* Página de discografía */
     .menudiscosuno {
         display: none;
     }
@@ -300,10 +319,11 @@ iframe {
         width: 45%;
     }
 
-    section img{
-        width: 45%
+    section img {
+        width: 45%;
     }
-    article img{
-        width :30%
+
+    article img {
+        width: 30%;
     }
 }
